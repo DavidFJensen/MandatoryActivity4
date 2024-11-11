@@ -1,0 +1,5 @@
+go run node.go 1 localhost:5001 localhost:5002
+
+go run node.go 2 localhost:5002 localhost:5003
+
+go run node.go 3 localhost:5003 localhost:5001

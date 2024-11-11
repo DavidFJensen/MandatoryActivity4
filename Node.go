@@ -48,7 +48,7 @@ func (n *Node) ReleaseToken(ctx context.Context, req *pb.Request) (*pb.Response,
 	log.Printf("Node %s received a token release request", n.id)
 
 	n.hasToken = true
-	log.Printf("Node %s has released the token", n.id)
+	log.Printf("Node %s has accepted the token", n.id)
 	return &pb.Response{Message: "Token released"}, nil
 }
 

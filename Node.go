@@ -26,10 +26,16 @@ func (n *Node) RequestToken(ctx context.Context, req *pb.Request) (*pb.Response,
 	n.mu.Lock()
 	defer n.mu.Unlock()
 
+	log.Printf("Node %s received a token request", n.id)
+
 	if n.hasToken {
+		log.Printf("Node %s has the token", n.id)
 		n.enterCriticalSection()
 		n.hasToken = false
+		log.Printf("Node %s is passing the token", n.id)
 		n.passToken()
+	} else {
+		log.Printf("Node %s does not have the token", n.id)
 	}
 
 	return &pb.Response{Message: "Token requested"}, nil
@@ -39,7 +45,10 @@ func (n *Node) ReleaseToken(ctx context.Context, req *pb.Request) (*pb.Response,
 	n.mu.Lock()
 	defer n.mu.Unlock()
 
+	log.Printf("Node %s received a token release request", n.id)
+
 	n.hasToken = true
+	log.Printf("Node %s has released the token", n.id)
 	return &pb.Response{Message: "Token released"}, nil
 }
 
@@ -51,6 +60,7 @@ func (n *Node) enterCriticalSection() {
 }
 
 func (n *Node) passToken() {
+	log.Printf("Node %s attempting to pass the token to %s", n.id, n.nextNode)
 	conn, err := grpc.Dial(n.nextNode, grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("Failed to connect to next node: %v", err)
@@ -62,6 +72,7 @@ func (n *Node) passToken() {
 	if err != nil {
 		log.Fatalf("Failed to pass token: %v", err)
 	}
+	log.Printf("Node %s successfully passed the token to %s", n.id, n.nextNode)
 }
 
 func main() {

@@ -1,0 +1,44 @@
+2024/11/11 17:13:32 Node 1 listening on localhost:5001
+2024/11/11 17:13:39 Node 3 listening on localhost:5003
+2024/11/11 17:13:44 Node 1 entering critical section
+2024/11/11 17:13:46 Node 1 leaving critical section
+2024/11/11 17:13:52 Failed to listen: listen tcp 127.0.0.1:5002: bind: address already in use
+2024/11/11 17:14:06 Failed to pass token: rpc error: code = Unavailable desc = timed out waiting for server handshake
+2024/11/11 17:14:06 Failed to request token: rpc error: code = Unavailable desc = error reading from server: EOF
+2024/11/11 17:14:11 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:16 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:21 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:26 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:31 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:36 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:41 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:46 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:51 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:14:56 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:15:01 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:15:06 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:15:11 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:15:15 Failed to listen: listen tcp 127.0.0.1:5002: bind: address already in use
+2024/11/11 17:15:16 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:15:21 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
+2024/11/11 17:16:37 Node 1 listening on localhost:5001
+2024/11/11 17:16:41 Node 2 listening on localhost:5002
+2024/11/11 17:16:45 Node 3 listening on localhost:5003
+2024/11/11 17:16:50 Node 1 entering critical section
+2024/11/11 17:16:52 Node 1 leaving critical section
+2024/11/11 17:16:52 Node 2 entering critical section
+2024/11/11 17:16:54 Node 2 leaving critical section
+2024/11/11 17:16:56 Node 3 entering critical section
+2024/11/11 17:16:58 Node 3 leaving critical section
+2024/11/11 17:17:02 Node 1 entering critical section
+2024/11/11 17:17:04 Node 1 leaving critical section
+2024/11/11 17:17:04 Node 2 entering critical section
+2024/11/11 17:17:06 Node 2 leaving critical section
+2024/11/11 17:17:08 Node 3 entering critical section
+2024/11/11 17:17:10 Node 3 leaving critical section
+2024/11/11 17:17:14 Node 1 entering critical section
+2024/11/11 17:17:16 Node 1 leaving critical section
+2024/11/11 17:17:16 Node 2 entering critical section
+2024/11/11 17:17:18 Node 2 leaving critical section
+2024/11/11 17:17:20 Node 3 entering critical section
+2024/11/11 17:17:22 Node 3 leaving critical section

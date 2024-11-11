@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package node;
+
+option go_package = "MandatoryActivity4/Node.go";
+
+service NodeService {
+  rpc RequestToken(Request) returns (Response);
+  rpc ReleaseToken(Request) returns (Response);
+}
+
+message Request {
+  string node_id = 1;
+}
+
+message Response {
+  string message = 1;
+}

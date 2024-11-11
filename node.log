@@ -1,883 +1,1679 @@
-2024/11/11 17:13:32 Node 1 listening on localhost:5001
-2024/11/11 17:13:39 Node 3 listening on localhost:5003
-2024/11/11 17:13:44 Node 1 entering critical section
-2024/11/11 17:13:46 Node 1 leaving critical section
-2024/11/11 17:13:52 Failed to listen: listen tcp 127.0.0.1:5002: bind: address already in use
-2024/11/11 17:14:06 Failed to pass token: rpc error: code = Unavailable desc = timed out waiting for server handshake
-2024/11/11 17:14:06 Failed to request token: rpc error: code = Unavailable desc = error reading from server: EOF
-2024/11/11 17:14:11 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:16 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:21 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:26 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:31 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:36 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:41 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:46 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:51 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:14:56 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:15:01 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:15:06 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:15:11 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:15:15 Failed to listen: listen tcp 127.0.0.1:5002: bind: address already in use
-2024/11/11 17:15:16 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:15:21 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp 127.0.0.1:5001: connect: connection refused"
-2024/11/11 17:16:37 Node 1 listening on localhost:5001
-2024/11/11 17:16:41 Node 2 listening on localhost:5002
-2024/11/11 17:16:45 Node 3 listening on localhost:5003
-2024/11/11 17:16:50 Node 1 entering critical section
-2024/11/11 17:16:52 Node 1 leaving critical section
-2024/11/11 17:16:52 Node 2 entering critical section
-2024/11/11 17:16:54 Node 2 leaving critical section
-2024/11/11 17:16:56 Node 3 entering critical section
-2024/11/11 17:16:58 Node 3 leaving critical section
-2024/11/11 17:17:02 Node 1 entering critical section
-2024/11/11 17:17:04 Node 1 leaving critical section
-2024/11/11 17:17:04 Node 2 entering critical section
-2024/11/11 17:17:06 Node 2 leaving critical section
-2024/11/11 17:17:08 Node 3 entering critical section
-2024/11/11 17:17:10 Node 3 leaving critical section
-2024/11/11 17:17:14 Node 1 entering critical section
-2024/11/11 17:17:16 Node 1 leaving critical section
-2024/11/11 17:17:16 Node 2 entering critical section
-2024/11/11 17:17:18 Node 2 leaving critical section
-2024/11/11 17:17:20 Node 3 entering critical section
-2024/11/11 17:17:22 Node 3 leaving critical section
-2024/11/11 17:17:26 Node 1 entering critical section
-2024/11/11 17:17:28 Node 1 leaving critical section
-2024/11/11 17:17:28 Node 2 entering critical section
-2024/11/11 17:17:30 Node 2 leaving critical section
-2024/11/11 17:17:32 Node 3 entering critical section
-2024/11/11 17:17:34 Node 3 leaving critical section
-2024/11/11 17:17:38 Node 1 entering critical section
-2024/11/11 17:17:40 Node 1 leaving critical section
-2024/11/11 17:17:40 Node 2 entering critical section
-2024/11/11 17:17:42 Node 2 leaving critical section
-2024/11/11 17:17:44 Node 3 entering critical section
-2024/11/11 17:17:46 Node 3 leaving critical section
-2024/11/11 17:17:50 Node 1 entering critical section
-2024/11/11 17:17:52 Node 1 leaving critical section
-2024/11/11 17:17:52 Node 2 entering critical section
-2024/11/11 17:17:54 Node 2 leaving critical section
-2024/11/11 17:17:56 Node 3 entering critical section
-2024/11/11 17:17:58 Node 3 leaving critical section
-2024/11/11 17:18:02 Node 1 entering critical section
-2024/11/11 17:18:04 Node 1 leaving critical section
-2024/11/11 17:18:04 Node 2 entering critical section
-2024/11/11 17:18:06 Node 2 leaving critical section
-2024/11/11 17:18:08 Node 3 entering critical section
-2024/11/11 17:18:10 Node 3 leaving critical section
-2024/11/11 17:18:14 Node 1 entering critical section
-2024/11/11 17:18:16 Node 1 leaving critical section
-2024/11/11 17:18:16 Node 2 entering critical section
-2024/11/11 17:18:18 Node 2 leaving critical section
-2024/11/11 17:18:20 Node 3 entering critical section
-2024/11/11 17:18:22 Node 3 leaving critical section
-2024/11/11 17:18:26 Node 1 entering critical section
-2024/11/11 17:18:28 Node 1 leaving critical section
-2024/11/11 17:18:28 Node 2 entering critical section
-2024/11/11 17:18:30 Node 2 leaving critical section
-2024/11/11 17:18:32 Node 3 entering critical section
-2024/11/11 17:18:34 Node 3 leaving critical section
-2024/11/11 17:18:38 Node 1 entering critical section
-2024/11/11 17:18:40 Node 1 leaving critical section
-2024/11/11 17:18:40 Node 2 entering critical section
-2024/11/11 17:18:42 Node 2 leaving critical section
-2024/11/11 17:18:44 Node 3 entering critical section
-2024/11/11 17:18:46 Node 3 leaving critical section
-2024/11/11 17:18:50 Node 1 entering critical section
-2024/11/11 17:18:52 Node 1 leaving critical section
-2024/11/11 17:18:52 Node 2 entering critical section
-2024/11/11 17:18:54 Node 2 leaving critical section
-2024/11/11 17:18:56 Node 3 entering critical section
-2024/11/11 17:18:58 Node 3 leaving critical section
-2024/11/11 17:19:02 Node 1 entering critical section
-2024/11/11 17:25:09 Node 1 listening on localhost:5001
-2024/11/11 17:25:09 Node 3 listening on localhost:5003
-2024/11/11 17:25:09 Node 2 listening on localhost:5002
-2024/11/11 17:25:14 Node 1 entering critical section
-2024/11/11 17:25:16 Node 1 leaving critical section
-2024/11/11 17:25:19 Node 2 entering critical section
-2024/11/11 17:25:21 Node 2 leaving critical section
-2024/11/11 17:25:24 Node 3 entering critical section
-2024/11/11 17:25:26 Node 3 leaving critical section
-2024/11/11 17:25:31 Node 1 entering critical section
-2024/11/11 17:25:33 Node 1 leaving critical section
-2024/11/11 17:25:36 Node 2 entering critical section
-2024/11/11 17:25:38 Node 2 leaving critical section
-2024/11/11 17:25:41 Node 3 entering critical section
-2024/11/11 17:25:43 Node 3 leaving critical section
-2024/11/11 17:25:48 Node 1 entering critical section
-2024/11/11 17:25:50 Node 1 leaving critical section
-2024/11/11 17:25:53 Node 2 entering critical section
-2024/11/11 17:25:55 Node 2 leaving critical section
-2024/11/11 17:25:58 Node 3 entering critical section
-2024/11/11 17:26:00 Node 3 leaving critical section
-2024/11/11 17:26:05 Node 1 entering critical section
-2024/11/11 17:26:07 Node 1 leaving critical section
-2024/11/11 17:26:10 Node 2 entering critical section
-2024/11/11 17:26:12 Node 2 leaving critical section
-2024/11/11 17:26:15 Node 3 entering critical section
-2024/11/11 17:26:17 Node 3 leaving critical section
-2024/11/11 17:26:22 Node 1 entering critical section
-2024/11/11 17:26:24 Node 1 leaving critical section
-2024/11/11 17:26:27 Node 2 entering critical section
-2024/11/11 17:26:29 Node 2 leaving critical section
-2024/11/11 17:26:32 Node 3 entering critical section
-2024/11/11 17:26:34 Node 3 leaving critical section
-2024/11/11 17:26:39 Node 1 entering critical section
-2024/11/11 17:26:41 Node 1 leaving critical section
-2024/11/11 17:26:44 Node 2 entering critical section
-2024/11/11 17:26:46 Node 2 leaving critical section
-2024/11/11 17:26:49 Node 3 entering critical section
-2024/11/11 17:26:51 Node 3 leaving critical section
-2024/11/11 17:26:56 Node 1 entering critical section
-2024/11/11 17:26:58 Node 1 leaving critical section
-2024/11/11 17:27:01 Node 2 entering critical section
-2024/11/11 17:27:03 Node 2 leaving critical section
-2024/11/11 17:27:06 Node 3 entering critical section
-2024/11/11 17:27:08 Node 3 leaving critical section
-2024/11/11 17:27:13 Node 1 entering critical section
-2024/11/11 17:27:15 Node 1 leaving critical section
-2024/11/11 17:27:18 Node 2 entering critical section
-2024/11/11 17:27:20 Node 2 leaving critical section
-2024/11/11 17:27:23 Node 3 entering critical section
-2024/11/11 17:27:25 Node 3 leaving critical section
-2024/11/11 17:27:30 Node 1 entering critical section
-2024/11/11 17:27:32 Node 1 leaving critical section
-2024/11/11 17:27:35 Node 2 entering critical section
-2024/11/11 17:27:37 Node 2 leaving critical section
-2024/11/11 17:27:40 Node 3 entering critical section
-2024/11/11 17:27:42 Node 3 leaving critical section
-2024/11/11 17:27:47 Node 1 entering critical section
-2024/11/11 17:27:49 Node 1 leaving critical section
-2024/11/11 17:27:52 Node 2 entering critical section
-2024/11/11 17:27:54 Node 2 leaving critical section
-2024/11/11 17:27:57 Node 3 entering critical section
-2024/11/11 17:27:59 Node 3 leaving critical section
-2024/11/11 17:28:04 Node 1 entering critical section
-2024/11/11 17:28:06 Node 1 leaving critical section
-2024/11/11 17:28:09 Node 2 entering critical section
-2024/11/11 17:28:11 Node 2 leaving critical section
-2024/11/11 17:28:14 Node 3 entering critical section
-2024/11/11 17:28:16 Node 3 leaving critical section
-2024/11/11 17:28:21 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:5001: connectex: Der kunne ikke oprettes forbindelse, fordi destinationscomputeren aktivt nægtede det."
-2024/11/11 18:16:40 Node 1 listening on localhost:5001
-2024/11/11 18:16:46 Node 2 listening on localhost:5002
-2024/11/11 18:16:51 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:5003: connectex: Der kunne ikke oprettes forbindelse, fordi destinationscomputeren aktivt nægtede det."
-2024/11/11 18:16:51 Node 3 listening on localhost:5003
-2024/11/11 18:16:56 Node 1 entering critical section
-2024/11/11 18:16:58 Node 1 leaving critical section
-2024/11/11 18:17:00 Node 2 entering critical section
-2024/11/11 18:17:02 Node 2 leaving critical section
-2024/11/11 18:17:06 Node 3 entering critical section
-2024/11/11 18:17:08 Node 3 leaving critical section
-2024/11/11 18:17:08 Node 1 entering critical section
-2024/11/11 18:17:10 Node 1 leaving critical section
-2024/11/11 18:17:12 Node 2 entering critical section
-2024/11/11 18:17:14 Node 2 leaving critical section
-2024/11/11 18:17:18 Node 3 entering critical section
-2024/11/11 18:17:20 Node 3 leaving critical section
-2024/11/11 18:17:20 Node 1 entering critical section
-2024/11/11 18:17:22 Node 1 leaving critical section
-2024/11/11 18:17:24 Node 2 entering critical section
-2024/11/11 18:17:26 Node 2 leaving critical section
-2024/11/11 18:17:30 Node 3 entering critical section
-2024/11/11 18:17:32 Node 3 leaving critical section
-2024/11/11 18:17:32 Node 1 entering critical section
-2024/11/11 18:17:34 Node 1 leaving critical section
-2024/11/11 18:17:36 Node 2 entering critical section
-2024/11/11 18:17:38 Node 2 leaving critical section
-2024/11/11 18:17:42 Node 3 entering critical section
-2024/11/11 18:17:44 Node 3 leaving critical section
-2024/11/11 18:17:44 Node 1 entering critical section
-2024/11/11 18:17:46 Node 1 leaving critical section
-2024/11/11 18:17:48 Node 2 entering critical section
-2024/11/11 18:17:50 Node 2 leaving critical section
-2024/11/11 18:17:54 Node 3 entering critical section
-2024/11/11 18:17:56 Node 3 leaving critical section
-2024/11/11 18:17:56 Node 1 entering critical section
-2024/11/11 18:17:58 Node 1 leaving critical section
-2024/11/11 18:18:00 Node 2 entering critical section
-2024/11/11 18:18:02 Node 2 leaving critical section
-2024/11/11 18:18:06 Node 3 entering critical section
-2024/11/11 18:18:08 Node 3 leaving critical section
-2024/11/11 18:18:08 Node 1 entering critical section
-2024/11/11 18:18:10 Node 1 leaving critical section
-2024/11/11 18:18:12 Node 2 entering critical section
-2024/11/11 18:18:14 Node 2 leaving critical section
-2024/11/11 18:18:18 Node 3 entering critical section
-2024/11/11 18:18:20 Node 3 leaving critical section
-2024/11/11 18:18:20 Node 1 entering critical section
-2024/11/11 18:18:22 Node 1 leaving critical section
-2024/11/11 18:18:24 Node 2 entering critical section
-2024/11/11 18:18:26 Node 2 leaving critical section
-2024/11/11 18:18:30 Node 3 entering critical section
-2024/11/11 18:18:32 Node 3 leaving critical section
-2024/11/11 18:18:32 Node 1 entering critical section
-2024/11/11 18:18:34 Node 1 leaving critical section
-2024/11/11 18:18:36 Node 2 entering critical section
-2024/11/11 18:18:38 Node 2 leaving critical section
-2024/11/11 18:18:42 Node 3 entering critical section
-2024/11/11 18:18:44 Node 3 leaving critical section
-2024/11/11 18:18:44 Node 1 entering critical section
-2024/11/11 18:18:46 Node 1 leaving critical section
-2024/11/11 18:18:48 Node 2 entering critical section
-2024/11/11 18:18:50 Node 2 leaving critical section
-2024/11/11 18:18:54 Node 3 entering critical section
-2024/11/11 18:18:56 Node 3 leaving critical section
-2024/11/11 18:18:56 Node 1 entering critical section
-2024/11/11 18:18:58 Node 1 leaving critical section
-2024/11/11 18:19:00 Node 2 entering critical section
-2024/11/11 18:19:02 Node 2 leaving critical section
-2024/11/11 18:19:06 Node 3 entering critical section
-2024/11/11 18:19:08 Node 3 leaving critical section
-2024/11/11 18:19:08 Node 1 entering critical section
-2024/11/11 18:19:10 Node 1 leaving critical section
-2024/11/11 18:19:12 Node 2 entering critical section
-2024/11/11 18:19:14 Node 2 leaving critical section
-2024/11/11 18:19:18 Node 3 entering critical section
-2024/11/11 18:19:20 Node 3 leaving critical section
-2024/11/11 18:19:20 Node 1 entering critical section
-2024/11/11 18:19:22 Node 1 leaving critical section
-2024/11/11 18:19:24 Node 2 entering critical section
-2024/11/11 18:19:26 Node 2 leaving critical section
-2024/11/11 18:19:30 Node 3 entering critical section
-2024/11/11 18:19:32 Node 3 leaving critical section
-2024/11/11 18:19:32 Node 1 entering critical section
-2024/11/11 18:19:34 Node 1 leaving critical section
-2024/11/11 18:19:36 Node 2 entering critical section
-2024/11/11 18:19:38 Node 2 leaving critical section
-2024/11/11 18:19:42 Node 3 entering critical section
-2024/11/11 18:19:44 Node 3 leaving critical section
-2024/11/11 18:19:44 Node 1 entering critical section
-2024/11/11 18:19:46 Node 1 leaving critical section
-2024/11/11 18:19:48 Node 2 entering critical section
-2024/11/11 18:19:50 Node 2 leaving critical section
-2024/11/11 18:19:54 Node 3 entering critical section
-2024/11/11 18:19:56 Node 3 leaving critical section
-2024/11/11 18:19:56 Node 1 entering critical section
-2024/11/11 18:19:58 Node 1 leaving critical section
-2024/11/11 18:20:00 Node 2 entering critical section
-2024/11/11 18:20:02 Node 2 leaving critical section
-2024/11/11 18:20:06 Node 3 entering critical section
-2024/11/11 18:20:08 Node 3 leaving critical section
-2024/11/11 18:20:08 Node 1 entering critical section
-2024/11/11 18:20:10 Node 1 leaving critical section
-2024/11/11 18:20:12 Node 2 entering critical section
-2024/11/11 18:20:14 Node 2 leaving critical section
-2024/11/11 18:20:18 Node 3 entering critical section
-2024/11/11 18:20:20 Node 3 leaving critical section
-2024/11/11 18:20:20 Node 1 entering critical section
-2024/11/11 18:20:22 Node 1 leaving critical section
-2024/11/11 18:20:24 Node 2 entering critical section
-2024/11/11 18:20:26 Node 2 leaving critical section
-2024/11/11 18:20:30 Node 3 entering critical section
-2024/11/11 18:20:32 Node 3 leaving critical section
-2024/11/11 18:20:32 Node 1 entering critical section
-2024/11/11 18:20:34 Node 1 leaving critical section
-2024/11/11 18:20:36 Node 2 entering critical section
-2024/11/11 18:20:38 Node 2 leaving critical section
-2024/11/11 18:20:42 Node 3 entering critical section
-2024/11/11 18:20:44 Node 3 leaving critical section
-2024/11/11 18:20:44 Node 1 entering critical section
-2024/11/11 18:20:46 Node 1 leaving critical section
-2024/11/11 18:20:48 Node 2 entering critical section
-2024/11/11 18:20:50 Node 2 leaving critical section
-2024/11/11 18:20:54 Node 3 entering critical section
-2024/11/11 18:20:56 Node 3 leaving critical section
-2024/11/11 18:20:56 Node 1 entering critical section
-2024/11/11 18:20:58 Node 1 leaving critical section
-2024/11/11 18:21:00 Node 2 entering critical section
-2024/11/11 18:21:02 Node 2 leaving critical section
-2024/11/11 18:21:06 Node 3 entering critical section
-2024/11/11 18:21:08 Node 3 leaving critical section
-2024/11/11 18:21:08 Node 1 entering critical section
-2024/11/11 18:21:10 Node 1 leaving critical section
-2024/11/11 18:21:12 Node 2 entering critical section
-2024/11/11 18:21:14 Node 2 leaving critical section
-2024/11/11 18:21:18 Node 3 entering critical section
-2024/11/11 18:21:20 Node 3 leaving critical section
-2024/11/11 18:21:20 Node 1 entering critical section
-2024/11/11 18:21:22 Node 1 leaving critical section
-2024/11/11 18:21:24 Node 2 entering critical section
-2024/11/11 18:21:26 Node 2 leaving critical section
-2024/11/11 18:21:30 Node 3 entering critical section
-2024/11/11 18:21:32 Node 3 leaving critical section
-2024/11/11 18:21:32 Node 1 entering critical section
-2024/11/11 18:21:34 Node 1 leaving critical section
-2024/11/11 18:21:36 Node 2 entering critical section
-2024/11/11 18:21:38 Node 2 leaving critical section
-2024/11/11 18:21:42 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:5003: connectex: Der kunne ikke oprettes forbindelse, fordi destinationscomputeren aktivt nægtede det."
-2024/11/11 20:34:52 Node 1 listening on localhost:5001
-2024/11/11 20:34:53 Node 2 listening on localhost:5002
-2024/11/11 20:34:55 Node 3 listening on localhost:5003
-2024/11/11 20:34:58 Node 3 received a token request
-2024/11/11 20:34:58 Node 3 does not have the token
-2024/11/11 20:35:00 Node 1 received a token request
-2024/11/11 20:35:00 Node 1 has the token
-2024/11/11 20:35:00 Node 1 entering critical section
-2024/11/11 20:35:02 Node 1 leaving critical section
-2024/11/11 20:35:02 Node 1 is passing the token
-2024/11/11 20:35:02 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:35:02 Node 2 received a token release request
-2024/11/11 20:35:02 Node 2 has released the token
-2024/11/11 20:35:02 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:35:07 Node 2 received a token request
-2024/11/11 20:35:07 Node 2 has the token
-2024/11/11 20:35:07 Node 2 entering critical section
-2024/11/11 20:35:07 Node 1 received a token request
-2024/11/11 20:35:07 Node 1 does not have the token
-2024/11/11 20:35:09 Node 2 leaving critical section
-2024/11/11 20:35:09 Node 2 is passing the token
-2024/11/11 20:35:09 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:35:09 Node 3 received a token release request
-2024/11/11 20:35:09 Node 3 has released the token
-2024/11/11 20:35:09 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:35:13 Node 3 received a token request
-2024/11/11 20:35:13 Node 3 has the token
-2024/11/11 20:35:13 Node 3 entering critical section
-2024/11/11 20:35:14 Node 2 received a token request
-2024/11/11 20:35:14 Node 2 does not have the token
-2024/11/11 20:35:15 Node 3 leaving critical section
-2024/11/11 20:35:15 Node 3 is passing the token
-2024/11/11 20:35:15 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:35:15 Node 1 received a token release request
-2024/11/11 20:35:15 Node 1 has released the token
-2024/11/11 20:35:15 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:35:17 Node 1 received a token request
-2024/11/11 20:35:17 Node 1 has the token
-2024/11/11 20:35:17 Node 1 entering critical section
-2024/11/11 20:35:19 Node 1 leaving critical section
-2024/11/11 20:35:19 Node 1 is passing the token
-2024/11/11 20:35:19 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:35:19 Node 2 received a token release request
-2024/11/11 20:35:19 Node 2 has released the token
-2024/11/11 20:35:19 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:35:24 Node 2 received a token request
-2024/11/11 20:35:24 Node 2 has the token
-2024/11/11 20:35:24 Node 2 entering critical section
-2024/11/11 20:35:24 Node 1 received a token request
-2024/11/11 20:35:24 Node 1 does not have the token
-2024/11/11 20:35:26 Node 2 leaving critical section
-2024/11/11 20:35:26 Node 2 is passing the token
-2024/11/11 20:35:26 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:35:26 Node 3 received a token release request
-2024/11/11 20:35:26 Node 3 has released the token
-2024/11/11 20:35:26 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:35:30 Node 3 received a token request
-2024/11/11 20:35:30 Node 3 has the token
-2024/11/11 20:35:30 Node 3 entering critical section
-2024/11/11 20:35:31 Node 2 received a token request
-2024/11/11 20:35:31 Node 2 does not have the token
-2024/11/11 20:35:32 Node 3 leaving critical section
-2024/11/11 20:35:32 Node 3 is passing the token
-2024/11/11 20:35:32 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:35:32 Node 1 received a token release request
-2024/11/11 20:35:32 Node 1 has released the token
-2024/11/11 20:35:32 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:35:34 Node 1 received a token request
-2024/11/11 20:35:34 Node 1 has the token
-2024/11/11 20:35:34 Node 1 entering critical section
-2024/11/11 20:35:36 Node 1 leaving critical section
-2024/11/11 20:35:36 Node 1 is passing the token
-2024/11/11 20:35:36 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:35:36 Node 2 received a token release request
-2024/11/11 20:35:36 Node 2 has released the token
-2024/11/11 20:35:36 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:35:41 Node 2 received a token request
-2024/11/11 20:35:41 Node 2 has the token
-2024/11/11 20:35:41 Node 2 entering critical section
-2024/11/11 20:35:41 Node 1 received a token request
-2024/11/11 20:35:41 Node 1 does not have the token
-2024/11/11 20:35:43 Node 2 leaving critical section
-2024/11/11 20:35:43 Node 2 is passing the token
-2024/11/11 20:35:43 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:35:43 Node 3 received a token release request
-2024/11/11 20:35:43 Node 3 has released the token
-2024/11/11 20:35:43 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:35:47 Node 3 received a token request
-2024/11/11 20:35:47 Node 3 has the token
-2024/11/11 20:35:47 Node 3 entering critical section
-2024/11/11 20:35:48 Node 2 received a token request
-2024/11/11 20:35:48 Node 2 does not have the token
-2024/11/11 20:35:49 Node 3 leaving critical section
-2024/11/11 20:35:49 Node 3 is passing the token
-2024/11/11 20:35:49 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:35:49 Node 1 received a token release request
-2024/11/11 20:35:49 Node 1 has released the token
-2024/11/11 20:35:49 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:35:51 Node 1 received a token request
-2024/11/11 20:35:51 Node 1 has the token
-2024/11/11 20:35:51 Node 1 entering critical section
-2024/11/11 20:35:53 Node 1 leaving critical section
-2024/11/11 20:35:53 Node 1 is passing the token
-2024/11/11 20:35:53 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:35:53 Node 2 received a token release request
-2024/11/11 20:35:53 Node 2 has released the token
-2024/11/11 20:35:53 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:35:58 Node 2 received a token request
-2024/11/11 20:35:58 Node 2 has the token
-2024/11/11 20:35:58 Node 2 entering critical section
-2024/11/11 20:35:58 Node 1 received a token request
-2024/11/11 20:35:58 Node 1 does not have the token
-2024/11/11 20:36:00 Node 2 leaving critical section
-2024/11/11 20:36:00 Node 2 is passing the token
-2024/11/11 20:36:00 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:36:00 Node 3 received a token release request
-2024/11/11 20:36:00 Node 3 has released the token
-2024/11/11 20:36:00 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:36:04 Node 3 received a token request
-2024/11/11 20:36:04 Node 3 has the token
-2024/11/11 20:36:04 Node 3 entering critical section
-2024/11/11 20:36:05 Node 2 received a token request
-2024/11/11 20:36:05 Node 2 does not have the token
-2024/11/11 20:36:06 Node 3 leaving critical section
-2024/11/11 20:36:06 Node 3 is passing the token
-2024/11/11 20:36:06 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:36:06 Node 1 received a token release request
-2024/11/11 20:36:06 Node 1 has released the token
-2024/11/11 20:36:06 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:36:08 Node 1 received a token request
-2024/11/11 20:36:08 Node 1 has the token
-2024/11/11 20:36:08 Node 1 entering critical section
-2024/11/11 20:36:10 Node 1 leaving critical section
-2024/11/11 20:36:10 Node 1 is passing the token
-2024/11/11 20:36:10 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:36:10 Node 2 received a token release request
-2024/11/11 20:36:10 Node 2 has released the token
-2024/11/11 20:36:10 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:36:15 Node 2 received a token request
-2024/11/11 20:36:15 Node 2 has the token
-2024/11/11 20:36:15 Node 2 entering critical section
-2024/11/11 20:36:15 Node 1 received a token request
-2024/11/11 20:36:15 Node 1 does not have the token
-2024/11/11 20:36:17 Node 2 leaving critical section
-2024/11/11 20:36:17 Node 2 is passing the token
-2024/11/11 20:36:17 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:36:17 Node 3 received a token release request
-2024/11/11 20:36:17 Node 3 has released the token
-2024/11/11 20:36:17 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:36:21 Node 3 received a token request
-2024/11/11 20:36:21 Node 3 has the token
-2024/11/11 20:36:21 Node 3 entering critical section
-2024/11/11 20:36:22 Node 2 received a token request
-2024/11/11 20:36:22 Node 2 does not have the token
-2024/11/11 20:36:23 Node 3 leaving critical section
-2024/11/11 20:36:23 Node 3 is passing the token
-2024/11/11 20:36:23 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:36:23 Node 1 received a token release request
-2024/11/11 20:36:23 Node 1 has released the token
-2024/11/11 20:36:23 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:36:25 Node 1 received a token request
-2024/11/11 20:36:25 Node 1 has the token
-2024/11/11 20:36:25 Node 1 entering critical section
-2024/11/11 20:36:27 Node 1 leaving critical section
-2024/11/11 20:36:27 Node 1 is passing the token
-2024/11/11 20:36:27 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:36:27 Node 2 received a token release request
-2024/11/11 20:36:27 Node 2 has released the token
-2024/11/11 20:36:27 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:36:32 Node 2 received a token request
-2024/11/11 20:36:32 Node 2 has the token
-2024/11/11 20:36:32 Node 2 entering critical section
-2024/11/11 20:36:32 Node 1 received a token request
-2024/11/11 20:36:32 Node 1 does not have the token
-2024/11/11 20:36:34 Node 2 leaving critical section
-2024/11/11 20:36:34 Node 2 is passing the token
-2024/11/11 20:36:34 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:36:34 Node 3 received a token release request
-2024/11/11 20:36:34 Node 3 has released the token
-2024/11/11 20:36:34 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:36:38 Node 3 received a token request
-2024/11/11 20:36:38 Node 3 has the token
-2024/11/11 20:36:38 Node 3 entering critical section
-2024/11/11 20:36:39 Node 2 received a token request
-2024/11/11 20:36:39 Node 2 does not have the token
-2024/11/11 20:36:40 Node 3 leaving critical section
-2024/11/11 20:36:40 Node 3 is passing the token
-2024/11/11 20:36:40 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:36:40 Node 1 received a token release request
-2024/11/11 20:36:40 Node 1 has released the token
-2024/11/11 20:36:40 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:36:42 Node 1 received a token request
-2024/11/11 20:36:42 Node 1 has the token
-2024/11/11 20:36:42 Node 1 entering critical section
-2024/11/11 20:36:44 Node 1 leaving critical section
-2024/11/11 20:36:44 Node 1 is passing the token
-2024/11/11 20:36:44 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:36:44 Node 2 received a token release request
-2024/11/11 20:36:44 Node 2 has released the token
-2024/11/11 20:36:44 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:36:49 Node 2 received a token request
-2024/11/11 20:36:49 Node 2 has the token
-2024/11/11 20:36:49 Node 2 entering critical section
-2024/11/11 20:36:49 Node 1 received a token request
-2024/11/11 20:36:49 Node 1 does not have the token
-2024/11/11 20:36:51 Node 2 leaving critical section
-2024/11/11 20:36:51 Node 2 is passing the token
-2024/11/11 20:36:51 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:36:51 Node 3 received a token release request
-2024/11/11 20:36:51 Node 3 has released the token
-2024/11/11 20:36:51 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:36:55 Node 3 received a token request
-2024/11/11 20:36:55 Node 3 has the token
-2024/11/11 20:36:55 Node 3 entering critical section
-2024/11/11 20:36:56 Node 2 received a token request
-2024/11/11 20:36:56 Node 2 does not have the token
-2024/11/11 20:36:57 Node 3 leaving critical section
-2024/11/11 20:36:57 Node 3 is passing the token
-2024/11/11 20:36:57 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:36:57 Node 1 received a token release request
-2024/11/11 20:36:57 Node 1 has released the token
-2024/11/11 20:36:57 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:36:59 Node 1 received a token request
-2024/11/11 20:36:59 Node 1 has the token
-2024/11/11 20:36:59 Node 1 entering critical section
-2024/11/11 20:37:01 Node 1 leaving critical section
-2024/11/11 20:37:01 Node 1 is passing the token
-2024/11/11 20:37:01 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:37:01 Node 2 received a token release request
-2024/11/11 20:37:01 Node 2 has released the token
-2024/11/11 20:37:01 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:37:06 Node 2 received a token request
-2024/11/11 20:37:06 Node 2 has the token
-2024/11/11 20:37:06 Node 2 entering critical section
-2024/11/11 20:37:06 Node 1 received a token request
-2024/11/11 20:37:06 Node 1 does not have the token
-2024/11/11 20:37:08 Node 2 leaving critical section
-2024/11/11 20:37:08 Node 2 is passing the token
-2024/11/11 20:37:08 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:37:08 Node 3 received a token release request
-2024/11/11 20:37:08 Node 3 has released the token
-2024/11/11 20:37:08 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:37:12 Node 3 received a token request
-2024/11/11 20:37:12 Node 3 has the token
-2024/11/11 20:37:12 Node 3 entering critical section
-2024/11/11 20:37:13 Node 2 received a token request
-2024/11/11 20:37:13 Node 2 does not have the token
-2024/11/11 20:37:14 Node 3 leaving critical section
-2024/11/11 20:37:14 Node 3 is passing the token
-2024/11/11 20:37:14 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:37:14 Node 1 received a token release request
-2024/11/11 20:37:14 Node 1 has released the token
-2024/11/11 20:37:14 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:37:16 Node 1 received a token request
-2024/11/11 20:37:16 Node 1 has the token
-2024/11/11 20:37:16 Node 1 entering critical section
-2024/11/11 20:37:18 Node 1 leaving critical section
-2024/11/11 20:37:18 Node 1 is passing the token
-2024/11/11 20:37:18 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:37:18 Node 2 received a token release request
-2024/11/11 20:37:18 Node 2 has released the token
-2024/11/11 20:37:18 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:37:23 Node 2 received a token request
-2024/11/11 20:37:23 Node 2 has the token
-2024/11/11 20:37:23 Node 2 entering critical section
-2024/11/11 20:37:23 Node 1 received a token request
-2024/11/11 20:37:23 Node 1 does not have the token
-2024/11/11 20:37:25 Node 2 leaving critical section
-2024/11/11 20:37:25 Node 2 is passing the token
-2024/11/11 20:37:25 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:37:25 Node 3 received a token release request
-2024/11/11 20:37:25 Node 3 has released the token
-2024/11/11 20:37:25 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:37:29 Node 3 received a token request
-2024/11/11 20:37:29 Node 3 has the token
-2024/11/11 20:37:29 Node 3 entering critical section
-2024/11/11 20:37:30 Node 2 received a token request
-2024/11/11 20:37:30 Node 2 does not have the token
-2024/11/11 20:37:31 Node 3 leaving critical section
-2024/11/11 20:37:31 Node 3 is passing the token
-2024/11/11 20:37:31 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:37:31 Node 1 received a token release request
-2024/11/11 20:37:31 Node 1 has released the token
-2024/11/11 20:37:31 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:37:33 Node 1 received a token request
-2024/11/11 20:37:33 Node 1 has the token
-2024/11/11 20:37:33 Node 1 entering critical section
-2024/11/11 20:37:35 Node 1 leaving critical section
-2024/11/11 20:37:35 Node 1 is passing the token
-2024/11/11 20:37:35 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:37:35 Node 2 received a token release request
-2024/11/11 20:37:35 Node 2 has released the token
-2024/11/11 20:37:35 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:37:40 Node 2 received a token request
-2024/11/11 20:37:40 Node 2 has the token
-2024/11/11 20:37:40 Node 2 entering critical section
-2024/11/11 20:37:40 Node 1 received a token request
-2024/11/11 20:37:40 Node 1 does not have the token
-2024/11/11 20:37:42 Node 2 leaving critical section
-2024/11/11 20:37:42 Node 2 is passing the token
-2024/11/11 20:37:42 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:37:42 Node 3 received a token release request
-2024/11/11 20:37:42 Node 3 has released the token
-2024/11/11 20:37:42 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:37:46 Node 3 received a token request
-2024/11/11 20:37:46 Node 3 has the token
-2024/11/11 20:37:46 Node 3 entering critical section
-2024/11/11 20:37:47 Node 2 received a token request
-2024/11/11 20:37:47 Node 2 does not have the token
-2024/11/11 20:37:48 Node 3 leaving critical section
-2024/11/11 20:37:48 Node 3 is passing the token
-2024/11/11 20:37:48 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:37:48 Node 1 received a token release request
-2024/11/11 20:37:48 Node 1 has released the token
-2024/11/11 20:37:48 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:37:50 Node 1 received a token request
-2024/11/11 20:37:50 Node 1 has the token
-2024/11/11 20:37:50 Node 1 entering critical section
-2024/11/11 20:37:52 Node 1 leaving critical section
-2024/11/11 20:37:52 Node 1 is passing the token
-2024/11/11 20:37:52 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:37:52 Node 2 received a token release request
-2024/11/11 20:37:52 Node 2 has released the token
-2024/11/11 20:37:52 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:37:57 Node 2 received a token request
-2024/11/11 20:37:57 Node 2 has the token
-2024/11/11 20:37:57 Node 2 entering critical section
-2024/11/11 20:37:57 Node 1 received a token request
-2024/11/11 20:37:57 Node 1 does not have the token
-2024/11/11 20:37:59 Node 2 leaving critical section
-2024/11/11 20:37:59 Node 2 is passing the token
-2024/11/11 20:37:59 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:37:59 Node 3 received a token release request
-2024/11/11 20:37:59 Node 3 has released the token
-2024/11/11 20:37:59 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:38:03 Node 3 received a token request
-2024/11/11 20:38:03 Node 3 has the token
-2024/11/11 20:38:03 Node 3 entering critical section
-2024/11/11 20:38:04 Node 2 received a token request
-2024/11/11 20:38:04 Node 2 does not have the token
-2024/11/11 20:38:05 Node 3 leaving critical section
-2024/11/11 20:38:05 Node 3 is passing the token
-2024/11/11 20:38:05 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:38:05 Node 1 received a token release request
-2024/11/11 20:38:05 Node 1 has released the token
-2024/11/11 20:38:05 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:38:07 Node 1 received a token request
-2024/11/11 20:38:07 Node 1 has the token
-2024/11/11 20:38:07 Node 1 entering critical section
-2024/11/11 20:38:09 Node 1 leaving critical section
-2024/11/11 20:38:09 Node 1 is passing the token
-2024/11/11 20:38:09 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:38:09 Node 2 received a token release request
-2024/11/11 20:38:09 Node 2 has released the token
-2024/11/11 20:38:09 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:38:14 Node 2 received a token request
-2024/11/11 20:38:14 Node 2 has the token
-2024/11/11 20:38:14 Node 2 entering critical section
-2024/11/11 20:38:14 Node 1 received a token request
-2024/11/11 20:38:14 Node 1 does not have the token
-2024/11/11 20:38:16 Node 2 leaving critical section
-2024/11/11 20:38:16 Node 2 is passing the token
-2024/11/11 20:38:16 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:38:16 Node 3 received a token release request
-2024/11/11 20:38:16 Node 3 has released the token
-2024/11/11 20:38:16 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:38:20 Node 3 received a token request
-2024/11/11 20:38:20 Node 3 has the token
-2024/11/11 20:38:20 Node 3 entering critical section
-2024/11/11 20:38:21 Node 2 received a token request
-2024/11/11 20:38:21 Node 2 does not have the token
-2024/11/11 20:38:22 Node 3 leaving critical section
-2024/11/11 20:38:22 Node 3 is passing the token
-2024/11/11 20:38:22 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:38:22 Node 1 received a token release request
-2024/11/11 20:38:22 Node 1 has released the token
-2024/11/11 20:38:22 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:38:24 Node 1 received a token request
-2024/11/11 20:38:24 Node 1 has the token
-2024/11/11 20:38:24 Node 1 entering critical section
-2024/11/11 20:38:26 Node 1 leaving critical section
-2024/11/11 20:38:26 Node 1 is passing the token
-2024/11/11 20:38:26 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:38:26 Node 2 received a token release request
-2024/11/11 20:38:26 Node 2 has released the token
-2024/11/11 20:38:26 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:38:31 Node 2 received a token request
-2024/11/11 20:38:31 Node 2 has the token
-2024/11/11 20:38:31 Node 2 entering critical section
-2024/11/11 20:38:31 Node 1 received a token request
-2024/11/11 20:38:31 Node 1 does not have the token
-2024/11/11 20:38:33 Node 2 leaving critical section
-2024/11/11 20:38:33 Node 2 is passing the token
-2024/11/11 20:38:33 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:38:33 Node 3 received a token release request
-2024/11/11 20:38:33 Node 3 has released the token
-2024/11/11 20:38:33 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:38:37 Node 3 received a token request
-2024/11/11 20:38:37 Node 3 has the token
-2024/11/11 20:38:37 Node 3 entering critical section
-2024/11/11 20:38:38 Node 2 received a token request
-2024/11/11 20:38:38 Node 2 does not have the token
-2024/11/11 20:38:39 Node 3 leaving critical section
-2024/11/11 20:38:39 Node 3 is passing the token
-2024/11/11 20:38:39 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:38:39 Node 1 received a token release request
-2024/11/11 20:38:39 Node 1 has released the token
-2024/11/11 20:38:39 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:38:41 Node 1 received a token request
-2024/11/11 20:38:41 Node 1 has the token
-2024/11/11 20:38:41 Node 1 entering critical section
-2024/11/11 20:38:43 Node 1 leaving critical section
-2024/11/11 20:38:43 Node 1 is passing the token
-2024/11/11 20:38:43 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:38:43 Node 2 received a token release request
-2024/11/11 20:38:43 Node 2 has released the token
-2024/11/11 20:38:43 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:38:48 Node 2 received a token request
-2024/11/11 20:38:48 Node 2 has the token
-2024/11/11 20:38:48 Node 2 entering critical section
-2024/11/11 20:38:48 Node 1 received a token request
-2024/11/11 20:38:48 Node 1 does not have the token
-2024/11/11 20:38:50 Node 2 leaving critical section
-2024/11/11 20:38:50 Node 2 is passing the token
-2024/11/11 20:38:50 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:38:50 Node 3 received a token release request
-2024/11/11 20:38:50 Node 3 has released the token
-2024/11/11 20:38:50 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:38:54 Node 3 received a token request
-2024/11/11 20:38:54 Node 3 has the token
-2024/11/11 20:38:54 Node 3 entering critical section
-2024/11/11 20:38:55 Node 2 received a token request
-2024/11/11 20:38:55 Node 2 does not have the token
-2024/11/11 20:38:56 Node 3 leaving critical section
-2024/11/11 20:38:56 Node 3 is passing the token
-2024/11/11 20:38:56 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:38:56 Node 1 received a token release request
-2024/11/11 20:38:56 Node 1 has released the token
-2024/11/11 20:38:56 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:38:58 Node 1 received a token request
-2024/11/11 20:38:58 Node 1 has the token
-2024/11/11 20:38:58 Node 1 entering critical section
-2024/11/11 20:39:00 Node 1 leaving critical section
-2024/11/11 20:39:00 Node 1 is passing the token
-2024/11/11 20:39:00 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:39:00 Node 2 received a token release request
-2024/11/11 20:39:00 Node 2 has released the token
-2024/11/11 20:39:00 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:39:05 Node 2 received a token request
-2024/11/11 20:39:05 Node 2 has the token
-2024/11/11 20:39:05 Node 2 entering critical section
-2024/11/11 20:39:05 Node 1 received a token request
-2024/11/11 20:39:05 Node 1 does not have the token
-2024/11/11 20:39:07 Node 2 leaving critical section
-2024/11/11 20:39:07 Node 2 is passing the token
-2024/11/11 20:39:07 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:39:07 Node 3 received a token release request
-2024/11/11 20:39:07 Node 3 has released the token
-2024/11/11 20:39:07 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:39:11 Node 3 received a token request
-2024/11/11 20:39:11 Node 3 has the token
-2024/11/11 20:39:11 Node 3 entering critical section
-2024/11/11 20:39:12 Node 2 received a token request
-2024/11/11 20:39:12 Node 2 does not have the token
-2024/11/11 20:39:13 Node 3 leaving critical section
-2024/11/11 20:39:13 Node 3 is passing the token
-2024/11/11 20:39:13 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:39:13 Node 1 received a token release request
-2024/11/11 20:39:13 Node 1 has released the token
-2024/11/11 20:39:13 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:39:15 Node 1 received a token request
-2024/11/11 20:39:15 Node 1 has the token
-2024/11/11 20:39:15 Node 1 entering critical section
-2024/11/11 20:39:17 Node 1 leaving critical section
-2024/11/11 20:39:17 Node 1 is passing the token
-2024/11/11 20:39:17 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:39:17 Node 2 received a token release request
-2024/11/11 20:39:17 Node 2 has released the token
-2024/11/11 20:39:17 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:39:22 Node 2 received a token request
-2024/11/11 20:39:22 Node 2 has the token
-2024/11/11 20:39:22 Node 2 entering critical section
-2024/11/11 20:39:22 Node 1 received a token request
-2024/11/11 20:39:22 Node 1 does not have the token
-2024/11/11 20:39:24 Node 2 leaving critical section
-2024/11/11 20:39:24 Node 2 is passing the token
-2024/11/11 20:39:24 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:39:24 Node 3 received a token release request
-2024/11/11 20:39:24 Node 3 has released the token
-2024/11/11 20:39:24 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:39:28 Node 3 received a token request
-2024/11/11 20:39:28 Node 3 has the token
-2024/11/11 20:39:28 Node 3 entering critical section
-2024/11/11 20:39:29 Node 2 received a token request
-2024/11/11 20:39:29 Node 2 does not have the token
-2024/11/11 20:39:30 Node 3 leaving critical section
-2024/11/11 20:39:30 Node 3 is passing the token
-2024/11/11 20:39:30 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:39:30 Node 1 received a token release request
-2024/11/11 20:39:30 Node 1 has released the token
-2024/11/11 20:39:30 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:39:32 Node 1 received a token request
-2024/11/11 20:39:32 Node 1 has the token
-2024/11/11 20:39:32 Node 1 entering critical section
-2024/11/11 20:39:34 Node 1 leaving critical section
-2024/11/11 20:39:34 Node 1 is passing the token
-2024/11/11 20:39:34 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:39:34 Node 2 received a token release request
-2024/11/11 20:39:34 Node 2 has released the token
-2024/11/11 20:39:34 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:39:39 Node 2 received a token request
-2024/11/11 20:39:39 Node 2 has the token
-2024/11/11 20:39:39 Node 2 entering critical section
-2024/11/11 20:39:39 Node 1 received a token request
-2024/11/11 20:39:39 Node 1 does not have the token
-2024/11/11 20:39:41 Node 2 leaving critical section
-2024/11/11 20:39:41 Node 2 is passing the token
-2024/11/11 20:39:41 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:39:41 Node 3 received a token release request
-2024/11/11 20:39:41 Node 3 has released the token
-2024/11/11 20:39:41 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:39:45 Node 3 received a token request
-2024/11/11 20:39:45 Node 3 has the token
-2024/11/11 20:39:45 Node 3 entering critical section
-2024/11/11 20:39:46 Node 2 received a token request
-2024/11/11 20:39:46 Node 2 does not have the token
-2024/11/11 20:39:47 Node 3 leaving critical section
-2024/11/11 20:39:47 Node 3 is passing the token
-2024/11/11 20:39:47 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:39:47 Node 1 received a token release request
-2024/11/11 20:39:47 Node 1 has released the token
-2024/11/11 20:39:47 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:39:49 Node 1 received a token request
-2024/11/11 20:39:49 Node 1 has the token
-2024/11/11 20:39:49 Node 1 entering critical section
-2024/11/11 20:39:51 Node 1 leaving critical section
-2024/11/11 20:39:51 Node 1 is passing the token
-2024/11/11 20:39:51 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:39:51 Node 2 received a token release request
-2024/11/11 20:39:51 Node 2 has released the token
-2024/11/11 20:39:51 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:39:56 Node 2 received a token request
-2024/11/11 20:39:56 Node 2 has the token
-2024/11/11 20:39:56 Node 2 entering critical section
-2024/11/11 20:39:56 Node 1 received a token request
-2024/11/11 20:39:56 Node 1 does not have the token
-2024/11/11 20:39:58 Node 2 leaving critical section
-2024/11/11 20:39:58 Node 2 is passing the token
-2024/11/11 20:39:58 Node 2 attempting to pass the token to localhost:5003
-2024/11/11 20:39:58 Node 3 received a token release request
-2024/11/11 20:39:58 Node 3 has released the token
-2024/11/11 20:39:58 Node 2 successfully passed the token to localhost:5003
-2024/11/11 20:40:02 Node 3 received a token request
-2024/11/11 20:40:02 Node 3 has the token
-2024/11/11 20:40:02 Node 3 entering critical section
-2024/11/11 20:40:03 Node 2 received a token request
-2024/11/11 20:40:03 Node 2 does not have the token
-2024/11/11 20:40:04 Node 3 leaving critical section
-2024/11/11 20:40:04 Node 3 is passing the token
-2024/11/11 20:40:04 Node 3 attempting to pass the token to localhost:5001
-2024/11/11 20:40:04 Node 1 received a token release request
-2024/11/11 20:40:04 Node 1 has released the token
-2024/11/11 20:40:04 Node 3 successfully passed the token to localhost:5001
-2024/11/11 20:40:06 Node 1 received a token request
-2024/11/11 20:40:06 Node 1 has the token
-2024/11/11 20:40:06 Node 1 entering critical section
-2024/11/11 20:40:08 Node 1 leaving critical section
-2024/11/11 20:40:08 Node 1 is passing the token
-2024/11/11 20:40:08 Node 1 attempting to pass the token to localhost:5002
-2024/11/11 20:40:08 Node 2 received a token release request
-2024/11/11 20:40:08 Node 2 has released the token
-2024/11/11 20:40:08 Node 1 successfully passed the token to localhost:5002
-2024/11/11 20:40:13 Failed to request token: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing dial tcp [::1]:5001: connectex: Der kunne ikke oprettes forbindelse, fordi destinationscomputeren aktivt nægtede det."
+2024/11/11 21:35:01 Node 1 listening on localhost:5001
+2024/11/11 21:35:03 Node 2 listening on localhost:5002
+2024/11/11 21:35:06 Node 3 listening on localhost:5003
+2024/11/11 21:35:08 Node 3 received a token request
+2024/11/11 21:35:08 Node 3 does not have the token
+2024/11/11 21:35:11 Node 1 received a token request
+2024/11/11 21:35:11 Node 1 has the token
+2024/11/11 21:35:11 Node 1 entering critical section
+2024/11/11 21:35:13 Node 3 received a token request
+2024/11/11 21:35:13 Node 3 does not have the token
+2024/11/11 21:35:13 Node 1 leaving critical section
+2024/11/11 21:35:13 Node 1 is passing the token
+2024/11/11 21:35:13 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:35:13 Node 2 received a token release request
+2024/11/11 21:35:13 Node 2 has released the token
+2024/11/11 21:35:13 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:35:16 Node 2 received a token request
+2024/11/11 21:35:16 Node 2 has the token
+2024/11/11 21:35:16 Node 2 entering critical section
+2024/11/11 21:35:18 Node 2 leaving critical section
+2024/11/11 21:35:18 Node 2 is passing the token
+2024/11/11 21:35:18 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:35:18 Node 3 received a token release request
+2024/11/11 21:35:18 Node 3 has released the token
+2024/11/11 21:35:18 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:35:23 Node 3 received a token request
+2024/11/11 21:35:23 Node 3 has the token
+2024/11/11 21:35:23 Node 3 entering critical section
+2024/11/11 21:35:23 Node 2 received a token request
+2024/11/11 21:35:23 Node 2 does not have the token
+2024/11/11 21:35:25 Node 3 leaving critical section
+2024/11/11 21:35:25 Node 3 is passing the token
+2024/11/11 21:35:25 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:35:25 Node 1 received a token release request
+2024/11/11 21:35:25 Node 1 has released the token
+2024/11/11 21:35:25 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:35:28 Node 1 received a token request
+2024/11/11 21:35:28 Node 1 has the token
+2024/11/11 21:35:28 Node 1 entering critical section
+2024/11/11 21:35:30 Node 3 received a token request
+2024/11/11 21:35:30 Node 3 does not have the token
+2024/11/11 21:35:30 Node 1 leaving critical section
+2024/11/11 21:35:30 Node 1 is passing the token
+2024/11/11 21:35:30 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:35:30 Node 2 received a token release request
+2024/11/11 21:35:30 Node 2 has released the token
+2024/11/11 21:35:30 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:35:33 Node 2 received a token request
+2024/11/11 21:35:33 Node 2 has the token
+2024/11/11 21:35:33 Node 2 entering critical section
+2024/11/11 21:35:35 Node 2 leaving critical section
+2024/11/11 21:35:35 Node 2 is passing the token
+2024/11/11 21:35:35 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:35:35 Node 3 received a token release request
+2024/11/11 21:35:35 Node 3 has released the token
+2024/11/11 21:35:35 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:35:35 Node 1 received a token request
+2024/11/11 21:35:35 Node 1 does not have the token
+2024/11/11 21:35:40 Node 3 received a token request
+2024/11/11 21:35:40 Node 3 has the token
+2024/11/11 21:35:40 Node 3 entering critical section
+2024/11/11 21:35:40 Node 2 received a token request
+2024/11/11 21:35:40 Node 2 does not have the token
+2024/11/11 21:35:42 Node 3 leaving critical section
+2024/11/11 21:35:42 Node 3 is passing the token
+2024/11/11 21:35:42 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:35:42 Node 1 received a token release request
+2024/11/11 21:35:42 Node 1 has released the token
+2024/11/11 21:35:42 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:35:45 Node 1 received a token request
+2024/11/11 21:35:45 Node 1 has the token
+2024/11/11 21:35:45 Node 1 entering critical section
+2024/11/11 21:35:47 Node 3 received a token request
+2024/11/11 21:35:47 Node 3 does not have the token
+2024/11/11 21:35:47 Node 1 leaving critical section
+2024/11/11 21:35:47 Node 1 is passing the token
+2024/11/11 21:35:47 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:35:47 Node 2 received a token release request
+2024/11/11 21:35:47 Node 2 has released the token
+2024/11/11 21:35:47 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:35:50 Node 2 received a token request
+2024/11/11 21:35:50 Node 2 has the token
+2024/11/11 21:35:50 Node 2 entering critical section
+2024/11/11 21:35:52 Node 2 leaving critical section
+2024/11/11 21:35:52 Node 2 is passing the token
+2024/11/11 21:35:52 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:35:52 Node 3 received a token release request
+2024/11/11 21:35:52 Node 3 has released the token
+2024/11/11 21:35:52 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:35:52 Node 1 received a token request
+2024/11/11 21:35:52 Node 1 does not have the token
+2024/11/11 21:35:57 Node 3 received a token request
+2024/11/11 21:35:57 Node 3 has the token
+2024/11/11 21:35:57 Node 3 entering critical section
+2024/11/11 21:35:57 Node 2 received a token request
+2024/11/11 21:35:57 Node 2 does not have the token
+2024/11/11 21:35:59 Node 3 leaving critical section
+2024/11/11 21:35:59 Node 3 is passing the token
+2024/11/11 21:35:59 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:35:59 Node 1 received a token release request
+2024/11/11 21:35:59 Node 1 has released the token
+2024/11/11 21:35:59 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:36:02 Node 1 received a token request
+2024/11/11 21:36:02 Node 1 has the token
+2024/11/11 21:36:02 Node 1 entering critical section
+2024/11/11 21:36:04 Node 3 received a token request
+2024/11/11 21:36:04 Node 3 does not have the token
+2024/11/11 21:36:04 Node 1 leaving critical section
+2024/11/11 21:36:04 Node 1 is passing the token
+2024/11/11 21:36:04 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:36:04 Node 2 received a token release request
+2024/11/11 21:36:04 Node 2 has released the token
+2024/11/11 21:36:04 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:36:07 Node 2 received a token request
+2024/11/11 21:36:07 Node 2 has the token
+2024/11/11 21:36:07 Node 2 entering critical section
+2024/11/11 21:36:09 Node 2 leaving critical section
+2024/11/11 21:36:09 Node 1 received a token request
+2024/11/11 21:36:09 Node 1 does not have the token
+2024/11/11 21:36:09 Node 2 is passing the token
+2024/11/11 21:36:09 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:36:09 Node 3 received a token release request
+2024/11/11 21:36:09 Node 3 has released the token
+2024/11/11 21:36:09 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:36:14 Node 3 received a token request
+2024/11/11 21:36:14 Node 3 has the token
+2024/11/11 21:36:14 Node 3 entering critical section
+2024/11/11 21:36:14 Node 2 received a token request
+2024/11/11 21:36:14 Node 2 does not have the token
+2024/11/11 21:36:16 Node 3 leaving critical section
+2024/11/11 21:36:16 Node 3 is passing the token
+2024/11/11 21:36:16 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:36:16 Node 1 received a token release request
+2024/11/11 21:36:16 Node 1 has released the token
+2024/11/11 21:36:16 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:36:19 Node 1 received a token request
+2024/11/11 21:36:19 Node 1 has the token
+2024/11/11 21:36:19 Node 1 entering critical section
+2024/11/11 21:36:21 Node 3 received a token request
+2024/11/11 21:36:21 Node 3 does not have the token
+2024/11/11 21:36:21 Node 1 leaving critical section
+2024/11/11 21:36:21 Node 1 is passing the token
+2024/11/11 21:36:21 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:36:21 Node 2 received a token release request
+2024/11/11 21:36:21 Node 2 has released the token
+2024/11/11 21:36:21 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:36:24 Node 2 received a token request
+2024/11/11 21:36:24 Node 2 has the token
+2024/11/11 21:36:24 Node 2 entering critical section
+2024/11/11 21:36:26 Node 2 leaving critical section
+2024/11/11 21:36:26 Node 2 is passing the token
+2024/11/11 21:36:26 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:36:26 Node 3 received a token release request
+2024/11/11 21:36:26 Node 3 has released the token
+2024/11/11 21:36:26 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:36:31 Node 3 received a token request
+2024/11/11 21:36:31 Node 3 has the token
+2024/11/11 21:36:31 Node 3 entering critical section
+2024/11/11 21:36:31 Node 2 received a token request
+2024/11/11 21:36:31 Node 2 does not have the token
+2024/11/11 21:36:33 Node 3 leaving critical section
+2024/11/11 21:36:33 Node 3 is passing the token
+2024/11/11 21:36:33 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:36:33 Node 1 received a token release request
+2024/11/11 21:36:33 Node 1 has released the token
+2024/11/11 21:36:33 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:36:36 Node 1 received a token request
+2024/11/11 21:36:36 Node 1 has the token
+2024/11/11 21:36:36 Node 1 entering critical section
+2024/11/11 21:36:38 Node 3 received a token request
+2024/11/11 21:36:38 Node 3 does not have the token
+2024/11/11 21:36:38 Node 1 leaving critical section
+2024/11/11 21:36:38 Node 1 is passing the token
+2024/11/11 21:36:38 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:36:38 Node 2 received a token release request
+2024/11/11 21:36:38 Node 2 has released the token
+2024/11/11 21:36:38 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:36:41 Node 2 received a token request
+2024/11/11 21:36:41 Node 2 has the token
+2024/11/11 21:36:41 Node 2 entering critical section
+2024/11/11 21:36:43 Node 2 leaving critical section
+2024/11/11 21:36:43 Node 2 is passing the token
+2024/11/11 21:36:43 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:36:43 Node 3 received a token release request
+2024/11/11 21:36:43 Node 3 has released the token
+2024/11/11 21:36:43 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:36:48 Node 3 received a token request
+2024/11/11 21:36:48 Node 3 has the token
+2024/11/11 21:36:48 Node 3 entering critical section
+2024/11/11 21:36:48 Node 2 received a token request
+2024/11/11 21:36:48 Node 2 does not have the token
+2024/11/11 21:36:50 Node 3 leaving critical section
+2024/11/11 21:36:50 Node 3 is passing the token
+2024/11/11 21:36:50 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:36:50 Node 1 received a token release request
+2024/11/11 21:36:50 Node 1 has released the token
+2024/11/11 21:36:50 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:36:53 Node 1 received a token request
+2024/11/11 21:36:53 Node 1 has the token
+2024/11/11 21:36:53 Node 1 entering critical section
+2024/11/11 21:36:55 Node 3 received a token request
+2024/11/11 21:36:55 Node 3 does not have the token
+2024/11/11 21:36:55 Node 1 leaving critical section
+2024/11/11 21:36:55 Node 1 is passing the token
+2024/11/11 21:36:55 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:36:55 Node 2 received a token release request
+2024/11/11 21:36:55 Node 2 has released the token
+2024/11/11 21:36:55 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:36:58 Node 2 received a token request
+2024/11/11 21:36:58 Node 2 has the token
+2024/11/11 21:36:58 Node 2 entering critical section
+2024/11/11 21:37:00 Node 2 leaving critical section
+2024/11/11 21:37:00 Node 2 is passing the token
+2024/11/11 21:37:00 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:37:00 Node 3 received a token release request
+2024/11/11 21:37:00 Node 3 has released the token
+2024/11/11 21:37:00 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:37:05 Node 3 received a token request
+2024/11/11 21:37:05 Node 3 has the token
+2024/11/11 21:37:05 Node 3 entering critical section
+2024/11/11 21:37:05 Node 2 received a token request
+2024/11/11 21:37:05 Node 2 does not have the token
+2024/11/11 21:37:07 Node 3 leaving critical section
+2024/11/11 21:37:07 Node 3 is passing the token
+2024/11/11 21:37:07 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:37:07 Node 1 received a token release request
+2024/11/11 21:37:07 Node 1 has released the token
+2024/11/11 21:37:07 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:37:10 Node 1 received a token request
+2024/11/11 21:37:10 Node 1 has the token
+2024/11/11 21:37:10 Node 1 entering critical section
+2024/11/11 21:37:12 Node 3 received a token request
+2024/11/11 21:37:12 Node 3 does not have the token
+2024/11/11 21:37:12 Node 1 leaving critical section
+2024/11/11 21:37:12 Node 1 is passing the token
+2024/11/11 21:37:12 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:37:12 Node 2 received a token release request
+2024/11/11 21:37:12 Node 2 has released the token
+2024/11/11 21:37:12 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:37:15 Node 2 received a token request
+2024/11/11 21:37:15 Node 2 has the token
+2024/11/11 21:37:15 Node 2 entering critical section
+2024/11/11 21:37:17 Node 2 leaving critical section
+2024/11/11 21:37:17 Node 2 is passing the token
+2024/11/11 21:37:17 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:37:17 Node 3 received a token release request
+2024/11/11 21:37:17 Node 3 has released the token
+2024/11/11 21:37:17 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:37:22 Node 3 received a token request
+2024/11/11 21:37:22 Node 3 has the token
+2024/11/11 21:37:22 Node 3 entering critical section
+2024/11/11 21:37:22 Node 2 received a token request
+2024/11/11 21:37:22 Node 2 does not have the token
+2024/11/11 21:37:24 Node 3 leaving critical section
+2024/11/11 21:37:24 Node 3 is passing the token
+2024/11/11 21:37:24 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:37:24 Node 1 received a token release request
+2024/11/11 21:37:24 Node 1 has released the token
+2024/11/11 21:37:24 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:37:27 Node 1 received a token request
+2024/11/11 21:37:27 Node 1 has the token
+2024/11/11 21:37:27 Node 1 entering critical section
+2024/11/11 21:37:29 Node 3 received a token request
+2024/11/11 21:37:29 Node 3 does not have the token
+2024/11/11 21:37:29 Node 1 leaving critical section
+2024/11/11 21:37:29 Node 1 is passing the token
+2024/11/11 21:37:29 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:37:29 Node 2 received a token release request
+2024/11/11 21:37:29 Node 2 has released the token
+2024/11/11 21:37:29 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:37:32 Node 2 received a token request
+2024/11/11 21:37:32 Node 2 has the token
+2024/11/11 21:37:32 Node 2 entering critical section
+2024/11/11 21:37:34 Node 2 leaving critical section
+2024/11/11 21:37:34 Node 2 is passing the token
+2024/11/11 21:37:34 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:37:34 Node 3 received a token release request
+2024/11/11 21:37:34 Node 3 has released the token
+2024/11/11 21:37:34 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:37:39 Node 3 received a token request
+2024/11/11 21:37:39 Node 3 has the token
+2024/11/11 21:37:39 Node 3 entering critical section
+2024/11/11 21:37:39 Node 2 received a token request
+2024/11/11 21:37:39 Node 2 does not have the token
+2024/11/11 21:37:41 Node 3 leaving critical section
+2024/11/11 21:37:41 Node 3 is passing the token
+2024/11/11 21:37:41 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:37:41 Node 1 received a token release request
+2024/11/11 21:37:41 Node 1 has released the token
+2024/11/11 21:37:41 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:37:44 Node 1 received a token request
+2024/11/11 21:37:44 Node 1 has the token
+2024/11/11 21:37:44 Node 1 entering critical section
+2024/11/11 21:37:46 Node 3 received a token request
+2024/11/11 21:37:46 Node 3 does not have the token
+2024/11/11 21:37:46 Node 1 leaving critical section
+2024/11/11 21:37:46 Node 1 is passing the token
+2024/11/11 21:37:46 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:37:46 Node 2 received a token release request
+2024/11/11 21:37:46 Node 2 has released the token
+2024/11/11 21:37:46 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:37:49 Node 2 received a token request
+2024/11/11 21:37:49 Node 2 has the token
+2024/11/11 21:37:49 Node 2 entering critical section
+2024/11/11 21:37:51 Node 2 leaving critical section
+2024/11/11 21:37:51 Node 2 is passing the token
+2024/11/11 21:37:51 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:37:51 Node 3 received a token release request
+2024/11/11 21:37:51 Node 3 has released the token
+2024/11/11 21:37:51 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:37:56 Node 3 received a token request
+2024/11/11 21:37:56 Node 3 has the token
+2024/11/11 21:37:56 Node 3 entering critical section
+2024/11/11 21:37:56 Node 2 received a token request
+2024/11/11 21:37:56 Node 2 does not have the token
+2024/11/11 21:37:58 Node 3 leaving critical section
+2024/11/11 21:37:58 Node 3 is passing the token
+2024/11/11 21:37:58 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:37:58 Node 1 received a token release request
+2024/11/11 21:37:58 Node 1 has released the token
+2024/11/11 21:37:58 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:38:01 Node 1 received a token request
+2024/11/11 21:38:01 Node 1 has the token
+2024/11/11 21:38:01 Node 1 entering critical section
+2024/11/11 21:38:03 Node 3 received a token request
+2024/11/11 21:38:03 Node 3 does not have the token
+2024/11/11 21:38:03 Node 1 leaving critical section
+2024/11/11 21:38:03 Node 1 is passing the token
+2024/11/11 21:38:03 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:38:03 Node 2 received a token release request
+2024/11/11 21:38:03 Node 2 has released the token
+2024/11/11 21:38:03 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:38:06 Node 2 received a token request
+2024/11/11 21:38:06 Node 2 has the token
+2024/11/11 21:38:06 Node 2 entering critical section
+2024/11/11 21:38:08 Node 2 leaving critical section
+2024/11/11 21:38:08 Node 2 is passing the token
+2024/11/11 21:38:08 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:38:08 Node 3 received a token release request
+2024/11/11 21:38:08 Node 3 has released the token
+2024/11/11 21:38:08 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:38:13 Node 3 received a token request
+2024/11/11 21:38:13 Node 3 has the token
+2024/11/11 21:38:13 Node 3 entering critical section
+2024/11/11 21:38:13 Node 2 received a token request
+2024/11/11 21:38:13 Node 2 does not have the token
+2024/11/11 21:38:15 Node 3 leaving critical section
+2024/11/11 21:38:15 Node 3 is passing the token
+2024/11/11 21:38:15 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:38:15 Node 1 received a token release request
+2024/11/11 21:38:15 Node 1 has released the token
+2024/11/11 21:38:15 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:38:18 Node 1 received a token request
+2024/11/11 21:38:18 Node 1 has the token
+2024/11/11 21:38:18 Node 1 entering critical section
+2024/11/11 21:38:20 Node 3 received a token request
+2024/11/11 21:38:20 Node 3 does not have the token
+2024/11/11 21:38:20 Node 1 leaving critical section
+2024/11/11 21:38:20 Node 1 is passing the token
+2024/11/11 21:38:20 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:38:20 Node 2 received a token release request
+2024/11/11 21:38:20 Node 2 has released the token
+2024/11/11 21:38:20 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:38:23 Node 2 received a token request
+2024/11/11 21:38:23 Node 2 has the token
+2024/11/11 21:38:23 Node 2 entering critical section
+2024/11/11 21:38:25 Node 2 leaving critical section
+2024/11/11 21:38:25 Node 2 is passing the token
+2024/11/11 21:38:25 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:38:25 Node 3 received a token release request
+2024/11/11 21:38:25 Node 3 has released the token
+2024/11/11 21:38:25 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:38:30 Node 3 received a token request
+2024/11/11 21:38:30 Node 3 has the token
+2024/11/11 21:38:30 Node 3 entering critical section
+2024/11/11 21:38:30 Node 2 received a token request
+2024/11/11 21:38:30 Node 2 does not have the token
+2024/11/11 21:38:32 Node 3 leaving critical section
+2024/11/11 21:38:32 Node 3 is passing the token
+2024/11/11 21:38:32 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:38:32 Node 1 received a token release request
+2024/11/11 21:38:32 Node 1 has released the token
+2024/11/11 21:38:32 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:38:35 Node 1 received a token request
+2024/11/11 21:38:35 Node 1 has the token
+2024/11/11 21:38:35 Node 1 entering critical section
+2024/11/11 21:38:37 Node 3 received a token request
+2024/11/11 21:38:37 Node 3 does not have the token
+2024/11/11 21:38:37 Node 1 leaving critical section
+2024/11/11 21:38:37 Node 1 is passing the token
+2024/11/11 21:38:37 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:38:37 Node 2 received a token release request
+2024/11/11 21:38:37 Node 2 has released the token
+2024/11/11 21:38:37 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:38:40 Node 2 received a token request
+2024/11/11 21:38:40 Node 2 has the token
+2024/11/11 21:38:40 Node 2 entering critical section
+2024/11/11 21:38:42 Node 2 leaving critical section
+2024/11/11 21:38:42 Node 2 is passing the token
+2024/11/11 21:38:42 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:38:42 Node 3 received a token release request
+2024/11/11 21:38:42 Node 3 has released the token
+2024/11/11 21:38:42 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:38:47 Node 3 received a token request
+2024/11/11 21:38:47 Node 3 has the token
+2024/11/11 21:38:47 Node 3 entering critical section
+2024/11/11 21:38:47 Node 2 received a token request
+2024/11/11 21:38:47 Node 2 does not have the token
+2024/11/11 21:38:49 Node 3 leaving critical section
+2024/11/11 21:38:49 Node 3 is passing the token
+2024/11/11 21:38:49 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:38:49 Node 1 received a token release request
+2024/11/11 21:38:49 Node 1 has released the token
+2024/11/11 21:38:49 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:38:52 Node 1 received a token request
+2024/11/11 21:38:52 Node 1 has the token
+2024/11/11 21:38:52 Node 1 entering critical section
+2024/11/11 21:38:54 Node 3 received a token request
+2024/11/11 21:38:54 Node 3 does not have the token
+2024/11/11 21:38:54 Node 1 leaving critical section
+2024/11/11 21:38:54 Node 1 is passing the token
+2024/11/11 21:38:54 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:38:54 Node 2 received a token release request
+2024/11/11 21:38:54 Node 2 has released the token
+2024/11/11 21:38:54 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:38:57 Node 2 received a token request
+2024/11/11 21:38:57 Node 2 has the token
+2024/11/11 21:38:57 Node 2 entering critical section
+2024/11/11 21:38:59 Node 2 leaving critical section
+2024/11/11 21:38:59 Node 2 is passing the token
+2024/11/11 21:38:59 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:38:59 Node 3 received a token release request
+2024/11/11 21:38:59 Node 3 has released the token
+2024/11/11 21:38:59 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:39:04 Node 3 received a token request
+2024/11/11 21:39:04 Node 3 has the token
+2024/11/11 21:39:04 Node 3 entering critical section
+2024/11/11 21:39:04 Node 2 received a token request
+2024/11/11 21:39:04 Node 2 does not have the token
+2024/11/11 21:39:06 Node 3 leaving critical section
+2024/11/11 21:39:06 Node 3 is passing the token
+2024/11/11 21:39:06 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:39:06 Node 1 received a token release request
+2024/11/11 21:39:06 Node 1 has released the token
+2024/11/11 21:39:06 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:39:09 Node 1 received a token request
+2024/11/11 21:39:09 Node 1 has the token
+2024/11/11 21:39:09 Node 1 entering critical section
+2024/11/11 21:39:11 Node 3 received a token request
+2024/11/11 21:39:11 Node 3 does not have the token
+2024/11/11 21:39:11 Node 1 leaving critical section
+2024/11/11 21:39:11 Node 1 is passing the token
+2024/11/11 21:39:11 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:39:11 Node 2 received a token release request
+2024/11/11 21:39:11 Node 2 has released the token
+2024/11/11 21:39:11 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:39:14 Node 2 received a token request
+2024/11/11 21:39:14 Node 2 has the token
+2024/11/11 21:39:14 Node 2 entering critical section
+2024/11/11 21:39:16 Node 2 leaving critical section
+2024/11/11 21:39:16 Node 2 is passing the token
+2024/11/11 21:39:16 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:39:16 Node 3 received a token release request
+2024/11/11 21:39:16 Node 3 has released the token
+2024/11/11 21:39:16 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:39:21 Node 3 received a token request
+2024/11/11 21:39:21 Node 3 has the token
+2024/11/11 21:39:21 Node 3 entering critical section
+2024/11/11 21:39:21 Node 2 received a token request
+2024/11/11 21:39:21 Node 2 does not have the token
+2024/11/11 21:39:23 Node 3 leaving critical section
+2024/11/11 21:39:23 Node 3 is passing the token
+2024/11/11 21:39:23 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:39:23 Node 1 received a token release request
+2024/11/11 21:39:23 Node 1 has released the token
+2024/11/11 21:39:23 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:39:26 Node 1 received a token request
+2024/11/11 21:39:26 Node 1 has the token
+2024/11/11 21:39:26 Node 1 entering critical section
+2024/11/11 21:39:28 Node 3 received a token request
+2024/11/11 21:39:28 Node 3 does not have the token
+2024/11/11 21:39:28 Node 1 leaving critical section
+2024/11/11 21:39:28 Node 1 is passing the token
+2024/11/11 21:39:28 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:39:28 Node 2 received a token release request
+2024/11/11 21:39:28 Node 2 has released the token
+2024/11/11 21:39:28 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:39:31 Node 2 received a token request
+2024/11/11 21:39:31 Node 2 has the token
+2024/11/11 21:39:31 Node 2 entering critical section
+2024/11/11 21:39:33 Node 2 leaving critical section
+2024/11/11 21:39:33 Node 2 is passing the token
+2024/11/11 21:39:33 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:39:33 Node 3 received a token release request
+2024/11/11 21:39:33 Node 3 has released the token
+2024/11/11 21:39:33 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:39:38 Node 3 received a token request
+2024/11/11 21:39:38 Node 3 has the token
+2024/11/11 21:39:38 Node 3 entering critical section
+2024/11/11 21:39:38 Node 2 received a token request
+2024/11/11 21:39:38 Node 2 does not have the token
+2024/11/11 21:39:40 Node 3 leaving critical section
+2024/11/11 21:39:40 Node 3 is passing the token
+2024/11/11 21:39:40 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:39:40 Node 1 received a token release request
+2024/11/11 21:39:40 Node 1 has released the token
+2024/11/11 21:39:40 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:39:43 Node 1 received a token request
+2024/11/11 21:39:43 Node 1 has the token
+2024/11/11 21:39:43 Node 1 entering critical section
+2024/11/11 21:39:45 Node 3 received a token request
+2024/11/11 21:39:45 Node 3 does not have the token
+2024/11/11 21:39:45 Node 1 leaving critical section
+2024/11/11 21:39:45 Node 1 is passing the token
+2024/11/11 21:39:45 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:39:45 Node 2 received a token release request
+2024/11/11 21:39:45 Node 2 has released the token
+2024/11/11 21:39:45 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:39:48 Node 2 received a token request
+2024/11/11 21:39:48 Node 2 has the token
+2024/11/11 21:39:48 Node 2 entering critical section
+2024/11/11 21:39:50 Node 2 leaving critical section
+2024/11/11 21:39:50 Node 2 is passing the token
+2024/11/11 21:39:50 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:39:50 Node 3 received a token release request
+2024/11/11 21:39:50 Node 3 has released the token
+2024/11/11 21:39:50 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:39:55 Node 3 received a token request
+2024/11/11 21:39:55 Node 3 has the token
+2024/11/11 21:39:55 Node 3 entering critical section
+2024/11/11 21:39:55 Node 2 received a token request
+2024/11/11 21:39:55 Node 2 does not have the token
+2024/11/11 21:39:57 Node 3 leaving critical section
+2024/11/11 21:39:57 Node 3 is passing the token
+2024/11/11 21:39:57 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:39:57 Node 1 received a token release request
+2024/11/11 21:39:57 Node 1 has released the token
+2024/11/11 21:39:57 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:40:00 Node 1 received a token request
+2024/11/11 21:40:00 Node 1 has the token
+2024/11/11 21:40:00 Node 1 entering critical section
+2024/11/11 21:40:02 Node 3 received a token request
+2024/11/11 21:40:02 Node 3 does not have the token
+2024/11/11 21:40:02 Node 1 leaving critical section
+2024/11/11 21:40:02 Node 1 is passing the token
+2024/11/11 21:40:02 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:40:02 Node 2 received a token release request
+2024/11/11 21:40:02 Node 2 has released the token
+2024/11/11 21:40:02 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:40:05 Node 2 received a token request
+2024/11/11 21:40:05 Node 2 has the token
+2024/11/11 21:40:05 Node 2 entering critical section
+2024/11/11 21:40:07 Node 2 leaving critical section
+2024/11/11 21:40:07 Node 2 is passing the token
+2024/11/11 21:40:07 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:40:07 Node 3 received a token release request
+2024/11/11 21:40:07 Node 3 has released the token
+2024/11/11 21:40:07 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:40:12 Node 3 received a token request
+2024/11/11 21:40:12 Node 3 has the token
+2024/11/11 21:40:12 Node 3 entering critical section
+2024/11/11 21:40:12 Node 2 received a token request
+2024/11/11 21:40:12 Node 2 does not have the token
+2024/11/11 21:40:14 Node 3 leaving critical section
+2024/11/11 21:40:14 Node 3 is passing the token
+2024/11/11 21:40:14 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:40:14 Node 1 received a token release request
+2024/11/11 21:40:14 Node 1 has released the token
+2024/11/11 21:40:14 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:40:17 Node 1 received a token request
+2024/11/11 21:40:17 Node 1 has the token
+2024/11/11 21:40:17 Node 1 entering critical section
+2024/11/11 21:40:19 Node 3 received a token request
+2024/11/11 21:40:19 Node 3 does not have the token
+2024/11/11 21:40:19 Node 1 leaving critical section
+2024/11/11 21:40:19 Node 1 is passing the token
+2024/11/11 21:40:19 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:40:19 Node 2 received a token release request
+2024/11/11 21:40:19 Node 2 has released the token
+2024/11/11 21:40:19 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:40:22 Node 2 received a token request
+2024/11/11 21:40:22 Node 2 has the token
+2024/11/11 21:40:22 Node 2 entering critical section
+2024/11/11 21:40:24 Node 2 leaving critical section
+2024/11/11 21:40:24 Node 2 is passing the token
+2024/11/11 21:40:24 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:40:24 Node 3 received a token release request
+2024/11/11 21:40:24 Node 3 has released the token
+2024/11/11 21:40:24 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:40:29 Node 3 received a token request
+2024/11/11 21:40:29 Node 3 has the token
+2024/11/11 21:40:29 Node 3 entering critical section
+2024/11/11 21:40:29 Node 2 received a token request
+2024/11/11 21:40:29 Node 2 does not have the token
+2024/11/11 21:40:31 Node 3 leaving critical section
+2024/11/11 21:40:31 Node 3 is passing the token
+2024/11/11 21:40:31 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:40:31 Node 1 received a token release request
+2024/11/11 21:40:31 Node 1 has released the token
+2024/11/11 21:40:31 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:40:34 Node 1 received a token request
+2024/11/11 21:40:34 Node 1 has the token
+2024/11/11 21:40:34 Node 1 entering critical section
+2024/11/11 21:40:36 Node 3 received a token request
+2024/11/11 21:40:36 Node 3 does not have the token
+2024/11/11 21:40:36 Node 1 leaving critical section
+2024/11/11 21:40:36 Node 1 is passing the token
+2024/11/11 21:40:36 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:40:36 Node 2 received a token release request
+2024/11/11 21:40:36 Node 2 has released the token
+2024/11/11 21:40:36 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:40:39 Node 2 received a token request
+2024/11/11 21:40:39 Node 2 has the token
+2024/11/11 21:40:39 Node 2 entering critical section
+2024/11/11 21:40:41 Node 2 leaving critical section
+2024/11/11 21:40:41 Node 2 is passing the token
+2024/11/11 21:40:41 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:40:41 Node 3 received a token release request
+2024/11/11 21:40:41 Node 3 has released the token
+2024/11/11 21:40:41 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:40:46 Node 3 received a token request
+2024/11/11 21:40:46 Node 3 has the token
+2024/11/11 21:40:46 Node 3 entering critical section
+2024/11/11 21:40:46 Node 2 received a token request
+2024/11/11 21:40:46 Node 2 does not have the token
+2024/11/11 21:40:48 Node 3 leaving critical section
+2024/11/11 21:40:48 Node 3 is passing the token
+2024/11/11 21:40:48 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:40:48 Node 1 received a token release request
+2024/11/11 21:40:48 Node 1 has released the token
+2024/11/11 21:40:48 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:40:51 Node 1 received a token request
+2024/11/11 21:40:51 Node 1 has the token
+2024/11/11 21:40:51 Node 1 entering critical section
+2024/11/11 21:40:53 Node 3 received a token request
+2024/11/11 21:40:53 Node 3 does not have the token
+2024/11/11 21:40:53 Node 1 leaving critical section
+2024/11/11 21:40:53 Node 1 is passing the token
+2024/11/11 21:40:53 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:40:53 Node 2 received a token release request
+2024/11/11 21:40:53 Node 2 has released the token
+2024/11/11 21:40:53 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:40:56 Node 2 received a token request
+2024/11/11 21:40:56 Node 2 has the token
+2024/11/11 21:40:56 Node 2 entering critical section
+2024/11/11 21:40:58 Node 2 leaving critical section
+2024/11/11 21:40:58 Node 2 is passing the token
+2024/11/11 21:40:58 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:40:58 Node 3 received a token release request
+2024/11/11 21:40:58 Node 3 has released the token
+2024/11/11 21:40:58 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:41:03 Node 3 received a token request
+2024/11/11 21:41:03 Node 3 has the token
+2024/11/11 21:41:03 Node 3 entering critical section
+2024/11/11 21:41:03 Node 2 received a token request
+2024/11/11 21:41:03 Node 2 does not have the token
+2024/11/11 21:41:05 Node 3 leaving critical section
+2024/11/11 21:41:05 Node 3 is passing the token
+2024/11/11 21:41:05 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:41:05 Node 1 received a token release request
+2024/11/11 21:41:05 Node 1 has released the token
+2024/11/11 21:41:05 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:41:08 Node 1 received a token request
+2024/11/11 21:41:08 Node 1 has the token
+2024/11/11 21:41:08 Node 1 entering critical section
+2024/11/11 21:41:10 Node 3 received a token request
+2024/11/11 21:41:10 Node 3 does not have the token
+2024/11/11 21:41:10 Node 1 leaving critical section
+2024/11/11 21:41:10 Node 1 is passing the token
+2024/11/11 21:41:10 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:41:10 Node 2 received a token release request
+2024/11/11 21:41:10 Node 2 has released the token
+2024/11/11 21:41:10 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:41:13 Node 2 received a token request
+2024/11/11 21:41:13 Node 2 has the token
+2024/11/11 21:41:13 Node 2 entering critical section
+2024/11/11 21:41:15 Node 2 leaving critical section
+2024/11/11 21:41:15 Node 2 is passing the token
+2024/11/11 21:41:15 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:41:15 Node 3 received a token release request
+2024/11/11 21:41:15 Node 3 has released the token
+2024/11/11 21:41:15 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:41:20 Node 3 received a token request
+2024/11/11 21:41:20 Node 3 has the token
+2024/11/11 21:41:20 Node 3 entering critical section
+2024/11/11 21:41:20 Node 2 received a token request
+2024/11/11 21:41:20 Node 2 does not have the token
+2024/11/11 21:41:22 Node 3 leaving critical section
+2024/11/11 21:41:22 Node 3 is passing the token
+2024/11/11 21:41:22 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:41:22 Node 1 received a token release request
+2024/11/11 21:41:22 Node 1 has released the token
+2024/11/11 21:41:22 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:41:25 Node 1 received a token request
+2024/11/11 21:41:25 Node 1 has the token
+2024/11/11 21:41:25 Node 1 entering critical section
+2024/11/11 21:41:27 Node 3 received a token request
+2024/11/11 21:41:27 Node 3 does not have the token
+2024/11/11 21:41:27 Node 1 leaving critical section
+2024/11/11 21:41:27 Node 1 is passing the token
+2024/11/11 21:41:27 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:41:27 Node 2 received a token release request
+2024/11/11 21:41:27 Node 2 has released the token
+2024/11/11 21:41:27 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:41:30 Node 2 received a token request
+2024/11/11 21:41:30 Node 2 has the token
+2024/11/11 21:41:30 Node 2 entering critical section
+2024/11/11 21:41:32 Node 2 leaving critical section
+2024/11/11 21:41:32 Node 2 is passing the token
+2024/11/11 21:41:32 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:41:32 Node 3 received a token release request
+2024/11/11 21:41:32 Node 3 has released the token
+2024/11/11 21:41:32 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:41:37 Node 3 received a token request
+2024/11/11 21:41:37 Node 3 has the token
+2024/11/11 21:41:37 Node 3 entering critical section
+2024/11/11 21:41:37 Node 2 received a token request
+2024/11/11 21:41:37 Node 2 does not have the token
+2024/11/11 21:41:39 Node 3 leaving critical section
+2024/11/11 21:41:39 Node 3 is passing the token
+2024/11/11 21:41:39 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:41:39 Node 1 received a token release request
+2024/11/11 21:41:39 Node 1 has released the token
+2024/11/11 21:41:39 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:41:42 Node 1 received a token request
+2024/11/11 21:41:42 Node 1 has the token
+2024/11/11 21:41:42 Node 1 entering critical section
+2024/11/11 21:41:44 Node 3 received a token request
+2024/11/11 21:41:44 Node 3 does not have the token
+2024/11/11 21:41:44 Node 1 leaving critical section
+2024/11/11 21:41:44 Node 1 is passing the token
+2024/11/11 21:41:44 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:41:44 Node 2 received a token release request
+2024/11/11 21:41:44 Node 2 has released the token
+2024/11/11 21:41:44 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:41:47 Node 2 received a token request
+2024/11/11 21:41:47 Node 2 has the token
+2024/11/11 21:41:47 Node 2 entering critical section
+2024/11/11 21:41:49 Node 2 leaving critical section
+2024/11/11 21:41:49 Node 2 is passing the token
+2024/11/11 21:41:49 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:41:49 Node 3 received a token release request
+2024/11/11 21:41:49 Node 3 has released the token
+2024/11/11 21:41:49 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:41:54 Node 3 received a token request
+2024/11/11 21:41:54 Node 3 has the token
+2024/11/11 21:41:54 Node 3 entering critical section
+2024/11/11 21:41:54 Node 2 received a token request
+2024/11/11 21:41:54 Node 2 does not have the token
+2024/11/11 21:41:56 Node 3 leaving critical section
+2024/11/11 21:41:56 Node 3 is passing the token
+2024/11/11 21:41:56 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:41:56 Node 1 received a token release request
+2024/11/11 21:41:56 Node 1 has released the token
+2024/11/11 21:41:56 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:41:59 Node 1 received a token request
+2024/11/11 21:41:59 Node 1 has the token
+2024/11/11 21:41:59 Node 1 entering critical section
+2024/11/11 21:42:01 Node 3 received a token request
+2024/11/11 21:42:01 Node 3 does not have the token
+2024/11/11 21:42:01 Node 1 leaving critical section
+2024/11/11 21:42:01 Node 1 is passing the token
+2024/11/11 21:42:01 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:42:01 Node 2 received a token release request
+2024/11/11 21:42:01 Node 2 has released the token
+2024/11/11 21:42:01 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:42:04 Node 2 received a token request
+2024/11/11 21:42:04 Node 2 has the token
+2024/11/11 21:42:04 Node 2 entering critical section
+2024/11/11 21:42:06 Node 2 leaving critical section
+2024/11/11 21:42:06 Node 2 is passing the token
+2024/11/11 21:42:06 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:42:06 Node 3 received a token release request
+2024/11/11 21:42:06 Node 3 has released the token
+2024/11/11 21:42:06 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:42:11 Node 3 received a token request
+2024/11/11 21:42:11 Node 3 has the token
+2024/11/11 21:42:11 Node 3 entering critical section
+2024/11/11 21:42:11 Node 2 received a token request
+2024/11/11 21:42:11 Node 2 does not have the token
+2024/11/11 21:42:13 Node 3 leaving critical section
+2024/11/11 21:42:13 Node 3 is passing the token
+2024/11/11 21:42:13 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:42:13 Node 1 received a token release request
+2024/11/11 21:42:13 Node 1 has released the token
+2024/11/11 21:42:13 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:42:16 Node 1 received a token request
+2024/11/11 21:42:16 Node 1 has the token
+2024/11/11 21:42:16 Node 1 entering critical section
+2024/11/11 21:42:18 Node 3 received a token request
+2024/11/11 21:42:18 Node 3 does not have the token
+2024/11/11 21:42:18 Node 1 leaving critical section
+2024/11/11 21:42:18 Node 1 is passing the token
+2024/11/11 21:42:18 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:42:18 Node 2 received a token release request
+2024/11/11 21:42:18 Node 2 has released the token
+2024/11/11 21:42:18 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:42:21 Node 2 received a token request
+2024/11/11 21:42:21 Node 2 has the token
+2024/11/11 21:42:21 Node 2 entering critical section
+2024/11/11 21:42:23 Node 2 leaving critical section
+2024/11/11 21:42:23 Node 2 is passing the token
+2024/11/11 21:42:23 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:42:23 Node 3 received a token release request
+2024/11/11 21:42:23 Node 3 has released the token
+2024/11/11 21:42:23 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:42:23 Node 1 received a token request
+2024/11/11 21:42:23 Node 1 does not have the token
+2024/11/11 21:42:28 Node 3 received a token request
+2024/11/11 21:42:28 Node 3 has the token
+2024/11/11 21:42:28 Node 3 entering critical section
+2024/11/11 21:42:28 Node 2 received a token request
+2024/11/11 21:42:28 Node 2 does not have the token
+2024/11/11 21:42:30 Node 3 leaving critical section
+2024/11/11 21:42:30 Node 3 is passing the token
+2024/11/11 21:42:30 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:42:30 Node 1 received a token release request
+2024/11/11 21:42:30 Node 1 has released the token
+2024/11/11 21:42:30 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:42:33 Node 1 received a token request
+2024/11/11 21:42:33 Node 1 has the token
+2024/11/11 21:42:33 Node 1 entering critical section
+2024/11/11 21:42:35 Node 3 received a token request
+2024/11/11 21:42:35 Node 3 does not have the token
+2024/11/11 21:42:35 Node 1 leaving critical section
+2024/11/11 21:42:35 Node 1 is passing the token
+2024/11/11 21:42:35 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:42:35 Node 2 received a token release request
+2024/11/11 21:42:35 Node 2 has released the token
+2024/11/11 21:42:35 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:42:38 Node 2 received a token request
+2024/11/11 21:42:38 Node 2 has the token
+2024/11/11 21:42:38 Node 2 entering critical section
+2024/11/11 21:42:40 Node 2 leaving critical section
+2024/11/11 21:42:40 Node 2 is passing the token
+2024/11/11 21:42:40 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:42:40 Node 1 received a token request
+2024/11/11 21:42:40 Node 1 does not have the token
+2024/11/11 21:42:40 Node 3 received a token release request
+2024/11/11 21:42:40 Node 3 has released the token
+2024/11/11 21:42:40 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:42:45 Node 3 received a token request
+2024/11/11 21:42:45 Node 3 has the token
+2024/11/11 21:42:45 Node 3 entering critical section
+2024/11/11 21:42:45 Node 2 received a token request
+2024/11/11 21:42:45 Node 2 does not have the token
+2024/11/11 21:42:47 Node 3 leaving critical section
+2024/11/11 21:42:47 Node 3 is passing the token
+2024/11/11 21:42:47 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:42:47 Node 1 received a token release request
+2024/11/11 21:42:47 Node 1 has released the token
+2024/11/11 21:42:47 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:42:50 Node 1 received a token request
+2024/11/11 21:42:50 Node 1 has the token
+2024/11/11 21:42:50 Node 1 entering critical section
+2024/11/11 21:42:52 Node 3 received a token request
+2024/11/11 21:42:52 Node 3 does not have the token
+2024/11/11 21:42:52 Node 1 leaving critical section
+2024/11/11 21:42:52 Node 1 is passing the token
+2024/11/11 21:42:52 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:42:52 Node 2 received a token release request
+2024/11/11 21:42:52 Node 2 has released the token
+2024/11/11 21:42:52 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:42:55 Node 2 received a token request
+2024/11/11 21:42:55 Node 2 has the token
+2024/11/11 21:42:55 Node 2 entering critical section
+2024/11/11 21:42:57 Node 2 leaving critical section
+2024/11/11 21:42:57 Node 2 is passing the token
+2024/11/11 21:42:57 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:42:57 Node 3 received a token release request
+2024/11/11 21:42:57 Node 3 has released the token
+2024/11/11 21:42:57 Node 1 received a token request
+2024/11/11 21:42:57 Node 1 does not have the token
+2024/11/11 21:42:57 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:43:02 Node 3 received a token request
+2024/11/11 21:43:02 Node 3 has the token
+2024/11/11 21:43:02 Node 3 entering critical section
+2024/11/11 21:43:02 Node 2 received a token request
+2024/11/11 21:43:02 Node 2 does not have the token
+2024/11/11 21:43:04 Node 3 leaving critical section
+2024/11/11 21:43:04 Node 3 is passing the token
+2024/11/11 21:43:04 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:43:04 Node 1 received a token release request
+2024/11/11 21:43:04 Node 1 has released the token
+2024/11/11 21:43:04 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:43:07 Node 1 received a token request
+2024/11/11 21:43:07 Node 1 has the token
+2024/11/11 21:43:07 Node 1 entering critical section
+2024/11/11 21:43:09 Node 3 received a token request
+2024/11/11 21:43:09 Node 3 does not have the token
+2024/11/11 21:43:09 Node 1 leaving critical section
+2024/11/11 21:43:09 Node 1 is passing the token
+2024/11/11 21:43:09 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:43:10 Node 2 received a token release request
+2024/11/11 21:43:10 Node 2 has released the token
+2024/11/11 21:43:10 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:43:12 Node 2 received a token request
+2024/11/11 21:43:12 Node 2 has the token
+2024/11/11 21:43:12 Node 2 entering critical section
+2024/11/11 21:43:14 Node 2 leaving critical section
+2024/11/11 21:43:14 Node 2 is passing the token
+2024/11/11 21:43:14 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:43:14 Node 3 received a token release request
+2024/11/11 21:43:14 Node 3 has released the token
+2024/11/11 21:43:14 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:43:19 Node 3 received a token request
+2024/11/11 21:43:19 Node 3 has the token
+2024/11/11 21:43:19 Node 3 entering critical section
+2024/11/11 21:43:19 Node 2 received a token request
+2024/11/11 21:43:19 Node 2 does not have the token
+2024/11/11 21:43:21 Node 3 leaving critical section
+2024/11/11 21:43:21 Node 3 is passing the token
+2024/11/11 21:43:21 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:43:21 Node 1 received a token release request
+2024/11/11 21:43:21 Node 1 has released the token
+2024/11/11 21:43:21 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:43:25 Node 1 received a token request
+2024/11/11 21:43:25 Node 1 has the token
+2024/11/11 21:43:25 Node 1 entering critical section
+2024/11/11 21:43:26 Node 3 received a token request
+2024/11/11 21:43:26 Node 3 does not have the token
+2024/11/11 21:43:27 Node 1 leaving critical section
+2024/11/11 21:43:27 Node 1 is passing the token
+2024/11/11 21:43:27 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:43:27 Node 2 received a token release request
+2024/11/11 21:43:27 Node 2 has released the token
+2024/11/11 21:43:27 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:43:29 Node 2 received a token request
+2024/11/11 21:43:29 Node 2 has the token
+2024/11/11 21:43:29 Node 2 entering critical section
+2024/11/11 21:43:31 Node 2 leaving critical section
+2024/11/11 21:43:31 Node 2 is passing the token
+2024/11/11 21:43:31 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:43:31 Node 3 received a token release request
+2024/11/11 21:43:31 Node 3 has released the token
+2024/11/11 21:43:31 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:43:36 Node 3 received a token request
+2024/11/11 21:43:36 Node 3 has the token
+2024/11/11 21:43:36 Node 3 entering critical section
+2024/11/11 21:43:36 Node 2 received a token request
+2024/11/11 21:43:36 Node 2 does not have the token
+2024/11/11 21:43:38 Node 3 leaving critical section
+2024/11/11 21:43:38 Node 3 is passing the token
+2024/11/11 21:43:38 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:43:38 Node 1 received a token release request
+2024/11/11 21:43:38 Node 1 has released the token
+2024/11/11 21:43:38 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:43:42 Node 1 received a token request
+2024/11/11 21:43:42 Node 1 has the token
+2024/11/11 21:43:42 Node 1 entering critical section
+2024/11/11 21:43:43 Node 3 received a token request
+2024/11/11 21:43:43 Node 3 does not have the token
+2024/11/11 21:43:44 Node 1 leaving critical section
+2024/11/11 21:43:44 Node 1 is passing the token
+2024/11/11 21:43:44 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:43:44 Node 2 received a token release request
+2024/11/11 21:43:44 Node 2 has released the token
+2024/11/11 21:43:44 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:43:46 Node 2 received a token request
+2024/11/11 21:43:46 Node 2 has the token
+2024/11/11 21:43:46 Node 2 entering critical section
+2024/11/11 21:43:48 Node 2 leaving critical section
+2024/11/11 21:43:48 Node 2 is passing the token
+2024/11/11 21:43:48 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:43:48 Node 3 received a token release request
+2024/11/11 21:43:48 Node 3 has released the token
+2024/11/11 21:43:48 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:43:53 Node 3 received a token request
+2024/11/11 21:43:53 Node 3 has the token
+2024/11/11 21:43:53 Node 3 entering critical section
+2024/11/11 21:43:53 Node 2 received a token request
+2024/11/11 21:43:53 Node 2 does not have the token
+2024/11/11 21:43:55 Node 3 leaving critical section
+2024/11/11 21:43:55 Node 3 is passing the token
+2024/11/11 21:43:55 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:43:55 Node 1 received a token release request
+2024/11/11 21:43:55 Node 1 has released the token
+2024/11/11 21:43:55 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:43:59 Node 1 received a token request
+2024/11/11 21:43:59 Node 1 has the token
+2024/11/11 21:43:59 Node 1 entering critical section
+2024/11/11 21:44:00 Node 3 received a token request
+2024/11/11 21:44:00 Node 3 does not have the token
+2024/11/11 21:44:01 Node 1 leaving critical section
+2024/11/11 21:44:01 Node 1 is passing the token
+2024/11/11 21:44:01 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:44:01 Node 2 received a token release request
+2024/11/11 21:44:01 Node 2 has released the token
+2024/11/11 21:44:01 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:44:03 Node 2 received a token request
+2024/11/11 21:44:03 Node 2 has the token
+2024/11/11 21:44:03 Node 2 entering critical section
+2024/11/11 21:44:05 Node 2 leaving critical section
+2024/11/11 21:44:05 Node 2 is passing the token
+2024/11/11 21:44:05 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:44:05 Node 3 received a token release request
+2024/11/11 21:44:05 Node 3 has released the token
+2024/11/11 21:44:05 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:44:10 Node 3 received a token request
+2024/11/11 21:44:10 Node 3 has the token
+2024/11/11 21:44:10 Node 3 entering critical section
+2024/11/11 21:44:10 Node 2 received a token request
+2024/11/11 21:44:10 Node 2 does not have the token
+2024/11/11 21:44:12 Node 3 leaving critical section
+2024/11/11 21:44:12 Node 3 is passing the token
+2024/11/11 21:44:12 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:44:12 Node 1 received a token release request
+2024/11/11 21:44:12 Node 1 has released the token
+2024/11/11 21:44:12 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:44:16 Node 1 received a token request
+2024/11/11 21:44:16 Node 1 has the token
+2024/11/11 21:44:16 Node 1 entering critical section
+2024/11/11 21:44:17 Node 3 received a token request
+2024/11/11 21:44:17 Node 3 does not have the token
+2024/11/11 21:44:18 Node 1 leaving critical section
+2024/11/11 21:44:18 Node 1 is passing the token
+2024/11/11 21:44:18 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:44:18 Node 2 received a token release request
+2024/11/11 21:44:18 Node 2 has released the token
+2024/11/11 21:44:18 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:44:21 Node 2 received a token request
+2024/11/11 21:44:21 Node 2 has the token
+2024/11/11 21:44:21 Node 2 entering critical section
+2024/11/11 21:44:23 Node 2 leaving critical section
+2024/11/11 21:44:23 Node 2 is passing the token
+2024/11/11 21:44:23 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:44:23 Node 3 received a token release request
+2024/11/11 21:44:23 Node 3 has released the token
+2024/11/11 21:44:23 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:44:27 Node 3 received a token request
+2024/11/11 21:44:27 Node 3 has the token
+2024/11/11 21:44:27 Node 3 entering critical section
+2024/11/11 21:44:28 Node 2 received a token request
+2024/11/11 21:44:28 Node 2 does not have the token
+2024/11/11 21:44:29 Node 3 leaving critical section
+2024/11/11 21:44:29 Node 3 is passing the token
+2024/11/11 21:44:29 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:44:29 Node 1 received a token release request
+2024/11/11 21:44:29 Node 1 has released the token
+2024/11/11 21:44:29 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:44:33 Node 1 received a token request
+2024/11/11 21:44:33 Node 1 has the token
+2024/11/11 21:44:33 Node 1 entering critical section
+2024/11/11 21:44:34 Node 3 received a token request
+2024/11/11 21:44:34 Node 3 does not have the token
+2024/11/11 21:44:35 Node 1 leaving critical section
+2024/11/11 21:44:35 Node 1 is passing the token
+2024/11/11 21:44:35 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:44:35 Node 2 received a token release request
+2024/11/11 21:44:35 Node 2 has released the token
+2024/11/11 21:44:35 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:44:38 Node 2 received a token request
+2024/11/11 21:44:38 Node 2 has the token
+2024/11/11 21:44:38 Node 2 entering critical section
+2024/11/11 21:44:40 Node 2 leaving critical section
+2024/11/11 21:44:40 Node 2 is passing the token
+2024/11/11 21:44:40 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:44:40 Node 3 received a token release request
+2024/11/11 21:44:40 Node 3 has released the token
+2024/11/11 21:44:40 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:44:44 Node 3 received a token request
+2024/11/11 21:44:44 Node 3 has the token
+2024/11/11 21:44:44 Node 3 entering critical section
+2024/11/11 21:44:45 Node 2 received a token request
+2024/11/11 21:44:45 Node 2 does not have the token
+2024/11/11 21:44:46 Node 3 leaving critical section
+2024/11/11 21:44:46 Node 3 is passing the token
+2024/11/11 21:44:46 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:44:46 Node 1 received a token release request
+2024/11/11 21:44:46 Node 1 has released the token
+2024/11/11 21:44:46 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:44:50 Node 1 received a token request
+2024/11/11 21:44:50 Node 1 has the token
+2024/11/11 21:44:50 Node 1 entering critical section
+2024/11/11 21:44:51 Node 3 received a token request
+2024/11/11 21:44:51 Node 3 does not have the token
+2024/11/11 21:44:52 Node 1 leaving critical section
+2024/11/11 21:44:52 Node 1 is passing the token
+2024/11/11 21:44:52 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:44:52 Node 2 received a token release request
+2024/11/11 21:44:52 Node 2 has released the token
+2024/11/11 21:44:52 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:44:55 Node 2 received a token request
+2024/11/11 21:44:55 Node 2 has the token
+2024/11/11 21:44:55 Node 2 entering critical section
+2024/11/11 21:44:57 Node 2 leaving critical section
+2024/11/11 21:44:57 Node 2 is passing the token
+2024/11/11 21:44:57 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:44:57 Node 3 received a token release request
+2024/11/11 21:44:57 Node 3 has released the token
+2024/11/11 21:44:57 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:45:01 Node 3 received a token request
+2024/11/11 21:45:01 Node 3 has the token
+2024/11/11 21:45:01 Node 3 entering critical section
+2024/11/11 21:45:02 Node 2 received a token request
+2024/11/11 21:45:02 Node 2 does not have the token
+2024/11/11 21:45:03 Node 3 leaving critical section
+2024/11/11 21:45:03 Node 3 is passing the token
+2024/11/11 21:45:03 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:45:03 Node 1 received a token release request
+2024/11/11 21:45:03 Node 1 has released the token
+2024/11/11 21:45:03 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:45:07 Node 1 received a token request
+2024/11/11 21:45:07 Node 1 has the token
+2024/11/11 21:45:07 Node 1 entering critical section
+2024/11/11 21:45:08 Node 3 received a token request
+2024/11/11 21:45:08 Node 3 does not have the token
+2024/11/11 21:45:09 Node 1 leaving critical section
+2024/11/11 21:45:09 Node 1 is passing the token
+2024/11/11 21:45:09 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:45:09 Node 2 received a token release request
+2024/11/11 21:45:09 Node 2 has released the token
+2024/11/11 21:45:09 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:45:12 Node 2 received a token request
+2024/11/11 21:45:12 Node 2 has the token
+2024/11/11 21:45:12 Node 2 entering critical section
+2024/11/11 21:45:14 Node 2 leaving critical section
+2024/11/11 21:45:14 Node 2 is passing the token
+2024/11/11 21:45:14 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:45:14 Node 3 received a token release request
+2024/11/11 21:45:14 Node 3 has released the token
+2024/11/11 21:45:14 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:45:18 Node 3 received a token request
+2024/11/11 21:45:18 Node 3 has the token
+2024/11/11 21:45:18 Node 3 entering critical section
+2024/11/11 21:45:19 Node 2 received a token request
+2024/11/11 21:45:19 Node 2 does not have the token
+2024/11/11 21:45:20 Node 3 leaving critical section
+2024/11/11 21:45:20 Node 3 is passing the token
+2024/11/11 21:45:20 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:45:20 Node 1 received a token release request
+2024/11/11 21:45:20 Node 1 has released the token
+2024/11/11 21:45:20 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:45:24 Node 1 received a token request
+2024/11/11 21:45:24 Node 1 has the token
+2024/11/11 21:45:24 Node 1 entering critical section
+2024/11/11 21:45:25 Node 3 received a token request
+2024/11/11 21:45:25 Node 3 does not have the token
+2024/11/11 21:45:26 Node 1 leaving critical section
+2024/11/11 21:45:26 Node 1 is passing the token
+2024/11/11 21:45:26 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:45:26 Node 2 received a token release request
+2024/11/11 21:45:26 Node 2 has released the token
+2024/11/11 21:45:26 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:45:29 Node 2 received a token request
+2024/11/11 21:45:29 Node 2 has the token
+2024/11/11 21:45:29 Node 2 entering critical section
+2024/11/11 21:45:31 Node 2 leaving critical section
+2024/11/11 21:45:31 Node 2 is passing the token
+2024/11/11 21:45:31 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:45:31 Node 3 received a token release request
+2024/11/11 21:45:31 Node 3 has released the token
+2024/11/11 21:45:31 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:45:35 Node 3 received a token request
+2024/11/11 21:45:35 Node 3 has the token
+2024/11/11 21:45:35 Node 3 entering critical section
+2024/11/11 21:45:36 Node 2 received a token request
+2024/11/11 21:45:36 Node 2 does not have the token
+2024/11/11 21:45:37 Node 3 leaving critical section
+2024/11/11 21:45:37 Node 3 is passing the token
+2024/11/11 21:45:37 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:45:37 Node 1 received a token release request
+2024/11/11 21:45:37 Node 1 has released the token
+2024/11/11 21:45:37 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:45:41 Node 1 received a token request
+2024/11/11 21:45:41 Node 1 has the token
+2024/11/11 21:45:41 Node 1 entering critical section
+2024/11/11 21:45:42 Node 3 received a token request
+2024/11/11 21:45:42 Node 3 does not have the token
+2024/11/11 21:45:43 Node 1 leaving critical section
+2024/11/11 21:45:43 Node 1 is passing the token
+2024/11/11 21:45:43 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:45:43 Node 2 received a token release request
+2024/11/11 21:45:43 Node 2 has released the token
+2024/11/11 21:45:43 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:45:46 Node 2 received a token request
+2024/11/11 21:45:46 Node 2 has the token
+2024/11/11 21:45:46 Node 2 entering critical section
+2024/11/11 21:45:48 Node 2 leaving critical section
+2024/11/11 21:45:48 Node 2 is passing the token
+2024/11/11 21:45:48 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:45:48 Node 3 received a token release request
+2024/11/11 21:45:48 Node 3 has released the token
+2024/11/11 21:45:48 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:45:52 Node 3 received a token request
+2024/11/11 21:45:52 Node 3 has the token
+2024/11/11 21:45:52 Node 3 entering critical section
+2024/11/11 21:45:53 Node 2 received a token request
+2024/11/11 21:45:53 Node 2 does not have the token
+2024/11/11 21:45:54 Node 3 leaving critical section
+2024/11/11 21:45:54 Node 3 is passing the token
+2024/11/11 21:45:54 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:45:54 Node 1 received a token release request
+2024/11/11 21:45:54 Node 1 has released the token
+2024/11/11 21:45:54 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:45:58 Node 1 received a token request
+2024/11/11 21:45:58 Node 1 has the token
+2024/11/11 21:45:58 Node 1 entering critical section
+2024/11/11 21:45:59 Node 3 received a token request
+2024/11/11 21:45:59 Node 3 does not have the token
+2024/11/11 21:46:00 Node 1 leaving critical section
+2024/11/11 21:46:00 Node 1 is passing the token
+2024/11/11 21:46:00 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:46:00 Node 2 received a token release request
+2024/11/11 21:46:00 Node 2 has released the token
+2024/11/11 21:46:00 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:46:03 Node 2 received a token request
+2024/11/11 21:46:03 Node 2 has the token
+2024/11/11 21:46:03 Node 2 entering critical section
+2024/11/11 21:46:05 Node 2 leaving critical section
+2024/11/11 21:46:05 Node 2 is passing the token
+2024/11/11 21:46:05 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:46:05 Node 3 received a token release request
+2024/11/11 21:46:05 Node 3 has released the token
+2024/11/11 21:46:05 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:46:09 Node 3 received a token request
+2024/11/11 21:46:09 Node 3 has the token
+2024/11/11 21:46:09 Node 3 entering critical section
+2024/11/11 21:46:10 Node 2 received a token request
+2024/11/11 21:46:10 Node 2 does not have the token
+2024/11/11 21:46:11 Node 3 leaving critical section
+2024/11/11 21:46:11 Node 3 is passing the token
+2024/11/11 21:46:11 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:46:11 Node 1 received a token release request
+2024/11/11 21:46:11 Node 1 has released the token
+2024/11/11 21:46:11 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:46:15 Node 1 received a token request
+2024/11/11 21:46:15 Node 1 has the token
+2024/11/11 21:46:15 Node 1 entering critical section
+2024/11/11 21:46:16 Node 3 received a token request
+2024/11/11 21:46:16 Node 3 does not have the token
+2024/11/11 21:46:17 Node 1 leaving critical section
+2024/11/11 21:46:17 Node 1 is passing the token
+2024/11/11 21:46:17 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:46:17 Node 2 received a token release request
+2024/11/11 21:46:17 Node 2 has released the token
+2024/11/11 21:46:17 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:46:20 Node 2 received a token request
+2024/11/11 21:46:20 Node 2 has the token
+2024/11/11 21:46:20 Node 2 entering critical section
+2024/11/11 21:46:22 Node 2 leaving critical section
+2024/11/11 21:46:22 Node 2 is passing the token
+2024/11/11 21:46:22 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:46:22 Node 3 received a token release request
+2024/11/11 21:46:22 Node 3 has released the token
+2024/11/11 21:46:22 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:46:26 Node 3 received a token request
+2024/11/11 21:46:26 Node 3 has the token
+2024/11/11 21:46:26 Node 3 entering critical section
+2024/11/11 21:46:27 Node 2 received a token request
+2024/11/11 21:46:27 Node 2 does not have the token
+2024/11/11 21:46:28 Node 3 leaving critical section
+2024/11/11 21:46:28 Node 3 is passing the token
+2024/11/11 21:46:28 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:46:28 Node 1 received a token release request
+2024/11/11 21:46:28 Node 1 has released the token
+2024/11/11 21:46:28 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:46:32 Node 1 received a token request
+2024/11/11 21:46:32 Node 1 has the token
+2024/11/11 21:46:32 Node 1 entering critical section
+2024/11/11 21:46:33 Node 3 received a token request
+2024/11/11 21:46:33 Node 3 does not have the token
+2024/11/11 21:46:34 Node 1 leaving critical section
+2024/11/11 21:46:34 Node 1 is passing the token
+2024/11/11 21:46:34 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:46:34 Node 2 received a token release request
+2024/11/11 21:46:34 Node 2 has released the token
+2024/11/11 21:46:34 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:46:37 Node 2 received a token request
+2024/11/11 21:46:37 Node 2 has the token
+2024/11/11 21:46:37 Node 2 entering critical section
+2024/11/11 21:46:39 Node 2 leaving critical section
+2024/11/11 21:46:39 Node 2 is passing the token
+2024/11/11 21:46:39 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:46:39 Node 3 received a token release request
+2024/11/11 21:46:39 Node 3 has released the token
+2024/11/11 21:46:39 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:46:43 Node 3 received a token request
+2024/11/11 21:46:43 Node 3 has the token
+2024/11/11 21:46:43 Node 3 entering critical section
+2024/11/11 21:46:44 Node 2 received a token request
+2024/11/11 21:46:44 Node 2 does not have the token
+2024/11/11 21:46:45 Node 3 leaving critical section
+2024/11/11 21:46:45 Node 3 is passing the token
+2024/11/11 21:46:45 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:46:45 Node 1 received a token release request
+2024/11/11 21:46:45 Node 1 has released the token
+2024/11/11 21:46:45 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:46:49 Node 1 received a token request
+2024/11/11 21:46:49 Node 1 has the token
+2024/11/11 21:46:49 Node 1 entering critical section
+2024/11/11 21:46:50 Node 3 received a token request
+2024/11/11 21:46:50 Node 3 does not have the token
+2024/11/11 21:46:51 Node 1 leaving critical section
+2024/11/11 21:46:51 Node 1 is passing the token
+2024/11/11 21:46:51 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:46:51 Node 2 received a token release request
+2024/11/11 21:46:51 Node 2 has released the token
+2024/11/11 21:46:51 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:46:54 Node 2 received a token request
+2024/11/11 21:46:54 Node 2 has the token
+2024/11/11 21:46:54 Node 2 entering critical section
+2024/11/11 21:46:56 Node 2 leaving critical section
+2024/11/11 21:46:56 Node 2 is passing the token
+2024/11/11 21:46:56 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:46:56 Node 3 received a token release request
+2024/11/11 21:46:56 Node 3 has released the token
+2024/11/11 21:46:56 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:47:00 Node 3 received a token request
+2024/11/11 21:47:00 Node 3 has the token
+2024/11/11 21:47:00 Node 3 entering critical section
+2024/11/11 21:47:01 Node 2 received a token request
+2024/11/11 21:47:01 Node 2 does not have the token
+2024/11/11 21:47:02 Node 3 leaving critical section
+2024/11/11 21:47:02 Node 3 is passing the token
+2024/11/11 21:47:02 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:47:02 Node 1 received a token release request
+2024/11/11 21:47:02 Node 1 has released the token
+2024/11/11 21:47:02 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:47:06 Node 1 received a token request
+2024/11/11 21:47:06 Node 1 has the token
+2024/11/11 21:47:06 Node 1 entering critical section
+2024/11/11 21:47:07 Node 3 received a token request
+2024/11/11 21:47:07 Node 3 does not have the token
+2024/11/11 21:47:08 Node 1 leaving critical section
+2024/11/11 21:47:08 Node 1 is passing the token
+2024/11/11 21:47:08 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:47:08 Node 2 received a token release request
+2024/11/11 21:47:08 Node 2 has released the token
+2024/11/11 21:47:08 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:47:11 Node 2 received a token request
+2024/11/11 21:47:11 Node 2 has the token
+2024/11/11 21:47:11 Node 2 entering critical section
+2024/11/11 21:47:13 Node 2 leaving critical section
+2024/11/11 21:47:13 Node 2 is passing the token
+2024/11/11 21:47:13 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:47:13 Node 3 received a token release request
+2024/11/11 21:47:13 Node 3 has released the token
+2024/11/11 21:47:13 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:47:17 Node 3 received a token request
+2024/11/11 21:47:17 Node 3 has the token
+2024/11/11 21:47:17 Node 3 entering critical section
+2024/11/11 21:47:18 Node 2 received a token request
+2024/11/11 21:47:18 Node 2 does not have the token
+2024/11/11 21:47:19 Node 3 leaving critical section
+2024/11/11 21:47:19 Node 3 is passing the token
+2024/11/11 21:47:19 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:47:19 Node 1 received a token release request
+2024/11/11 21:47:19 Node 1 has released the token
+2024/11/11 21:47:19 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:47:23 Node 1 received a token request
+2024/11/11 21:47:23 Node 1 has the token
+2024/11/11 21:47:23 Node 1 entering critical section
+2024/11/11 21:47:24 Node 3 received a token request
+2024/11/11 21:47:24 Node 3 does not have the token
+2024/11/11 21:47:25 Node 1 leaving critical section
+2024/11/11 21:47:25 Node 1 is passing the token
+2024/11/11 21:47:25 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:47:25 Node 2 received a token release request
+2024/11/11 21:47:25 Node 2 has released the token
+2024/11/11 21:47:25 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:47:28 Node 2 received a token request
+2024/11/11 21:47:28 Node 2 has the token
+2024/11/11 21:47:28 Node 2 entering critical section
+2024/11/11 21:47:30 Node 2 leaving critical section
+2024/11/11 21:47:30 Node 2 is passing the token
+2024/11/11 21:47:30 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:47:30 Node 3 received a token release request
+2024/11/11 21:47:30 Node 3 has released the token
+2024/11/11 21:47:30 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:47:34 Node 3 received a token request
+2024/11/11 21:47:34 Node 3 has the token
+2024/11/11 21:47:34 Node 3 entering critical section
+2024/11/11 21:47:35 Node 2 received a token request
+2024/11/11 21:47:35 Node 2 does not have the token
+2024/11/11 21:47:36 Node 3 leaving critical section
+2024/11/11 21:47:36 Node 3 is passing the token
+2024/11/11 21:47:36 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:47:36 Node 1 received a token release request
+2024/11/11 21:47:36 Node 1 has released the token
+2024/11/11 21:47:36 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:47:40 Node 1 received a token request
+2024/11/11 21:47:40 Node 1 has the token
+2024/11/11 21:47:40 Node 1 entering critical section
+2024/11/11 21:47:41 Node 3 received a token request
+2024/11/11 21:47:41 Node 3 does not have the token
+2024/11/11 21:47:42 Node 1 leaving critical section
+2024/11/11 21:47:42 Node 1 is passing the token
+2024/11/11 21:47:42 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:47:42 Node 2 received a token release request
+2024/11/11 21:47:42 Node 2 has released the token
+2024/11/11 21:47:42 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:47:45 Node 2 received a token request
+2024/11/11 21:47:45 Node 2 has the token
+2024/11/11 21:47:45 Node 2 entering critical section
+2024/11/11 21:47:47 Node 2 leaving critical section
+2024/11/11 21:47:47 Node 2 is passing the token
+2024/11/11 21:47:47 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:47:47 Node 3 received a token release request
+2024/11/11 21:47:47 Node 3 has released the token
+2024/11/11 21:47:47 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:47:51 Node 3 received a token request
+2024/11/11 21:47:51 Node 3 has the token
+2024/11/11 21:47:51 Node 3 entering critical section
+2024/11/11 21:47:52 Node 2 received a token request
+2024/11/11 21:47:52 Node 2 does not have the token
+2024/11/11 21:47:53 Node 3 leaving critical section
+2024/11/11 21:47:53 Node 3 is passing the token
+2024/11/11 21:47:53 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:47:53 Node 1 received a token release request
+2024/11/11 21:47:53 Node 1 has released the token
+2024/11/11 21:47:53 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:47:57 Node 1 received a token request
+2024/11/11 21:47:57 Node 1 has the token
+2024/11/11 21:47:57 Node 1 entering critical section
+2024/11/11 21:47:58 Node 3 received a token request
+2024/11/11 21:47:58 Node 3 does not have the token
+2024/11/11 21:47:59 Node 1 leaving critical section
+2024/11/11 21:47:59 Node 1 is passing the token
+2024/11/11 21:47:59 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:47:59 Node 2 received a token release request
+2024/11/11 21:47:59 Node 2 has released the token
+2024/11/11 21:47:59 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:48:02 Node 2 received a token request
+2024/11/11 21:48:02 Node 2 has the token
+2024/11/11 21:48:02 Node 2 entering critical section
+2024/11/11 21:48:04 Node 1 received a token request
+2024/11/11 21:48:04 Node 1 does not have the token
+2024/11/11 21:48:04 Node 2 leaving critical section
+2024/11/11 21:48:04 Node 2 is passing the token
+2024/11/11 21:48:04 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:48:04 Node 3 received a token release request
+2024/11/11 21:48:04 Node 3 has released the token
+2024/11/11 21:48:04 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:48:08 Node 3 received a token request
+2024/11/11 21:48:08 Node 3 has the token
+2024/11/11 21:48:08 Node 3 entering critical section
+2024/11/11 21:48:09 Node 2 received a token request
+2024/11/11 21:48:09 Node 2 does not have the token
+2024/11/11 21:48:10 Node 3 leaving critical section
+2024/11/11 21:48:10 Node 3 is passing the token
+2024/11/11 21:48:10 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:48:10 Node 1 received a token release request
+2024/11/11 21:48:10 Node 1 has released the token
+2024/11/11 21:48:10 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:48:14 Node 1 received a token request
+2024/11/11 21:48:14 Node 1 has the token
+2024/11/11 21:48:14 Node 1 entering critical section
+2024/11/11 21:48:15 Node 3 received a token request
+2024/11/11 21:48:15 Node 3 does not have the token
+2024/11/11 21:48:16 Node 1 leaving critical section
+2024/11/11 21:48:16 Node 1 is passing the token
+2024/11/11 21:48:16 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:48:16 Node 2 received a token release request
+2024/11/11 21:48:16 Node 2 has released the token
+2024/11/11 21:48:16 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:48:19 Node 2 received a token request
+2024/11/11 21:48:19 Node 2 has the token
+2024/11/11 21:48:19 Node 2 entering critical section
+2024/11/11 21:48:21 Node 1 received a token request
+2024/11/11 21:48:21 Node 1 does not have the token
+2024/11/11 21:48:21 Node 2 leaving critical section
+2024/11/11 21:48:21 Node 2 is passing the token
+2024/11/11 21:48:21 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:48:21 Node 3 received a token release request
+2024/11/11 21:48:21 Node 3 has released the token
+2024/11/11 21:48:21 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:48:25 Node 3 received a token request
+2024/11/11 21:48:25 Node 3 has the token
+2024/11/11 21:48:25 Node 3 entering critical section
+2024/11/11 21:48:26 Node 2 received a token request
+2024/11/11 21:48:26 Node 2 does not have the token
+2024/11/11 21:48:27 Node 3 leaving critical section
+2024/11/11 21:48:27 Node 3 is passing the token
+2024/11/11 21:48:27 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:48:27 Node 1 received a token release request
+2024/11/11 21:48:27 Node 1 has released the token
+2024/11/11 21:48:27 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:48:31 Node 1 received a token request
+2024/11/11 21:48:31 Node 1 has the token
+2024/11/11 21:48:31 Node 1 entering critical section
+2024/11/11 21:48:32 Node 3 received a token request
+2024/11/11 21:48:32 Node 3 does not have the token
+2024/11/11 21:48:33 Node 1 leaving critical section
+2024/11/11 21:48:33 Node 1 is passing the token
+2024/11/11 21:48:33 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:48:33 Node 2 received a token release request
+2024/11/11 21:48:33 Node 2 has released the token
+2024/11/11 21:48:33 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:48:36 Node 2 received a token request
+2024/11/11 21:48:36 Node 2 has the token
+2024/11/11 21:48:36 Node 2 entering critical section
+2024/11/11 21:48:38 Node 1 received a token request
+2024/11/11 21:48:38 Node 1 does not have the token
+2024/11/11 21:48:38 Node 2 leaving critical section
+2024/11/11 21:48:38 Node 2 is passing the token
+2024/11/11 21:48:38 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:48:38 Node 3 received a token release request
+2024/11/11 21:48:38 Node 3 has released the token
+2024/11/11 21:48:38 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:48:42 Node 3 received a token request
+2024/11/11 21:48:42 Node 3 has the token
+2024/11/11 21:48:42 Node 3 entering critical section
+2024/11/11 21:48:43 Node 2 received a token request
+2024/11/11 21:48:43 Node 2 does not have the token
+2024/11/11 21:48:44 Node 3 leaving critical section
+2024/11/11 21:48:44 Node 3 is passing the token
+2024/11/11 21:48:44 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:48:44 Node 1 received a token release request
+2024/11/11 21:48:44 Node 1 has released the token
+2024/11/11 21:48:44 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:48:48 Node 1 received a token request
+2024/11/11 21:48:48 Node 1 has the token
+2024/11/11 21:48:48 Node 1 entering critical section
+2024/11/11 21:48:49 Node 3 received a token request
+2024/11/11 21:48:49 Node 3 does not have the token
+2024/11/11 21:48:50 Node 1 leaving critical section
+2024/11/11 21:48:50 Node 1 is passing the token
+2024/11/11 21:48:50 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:48:50 Node 2 received a token release request
+2024/11/11 21:48:50 Node 2 has released the token
+2024/11/11 21:48:50 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:48:53 Node 2 received a token request
+2024/11/11 21:48:53 Node 2 has the token
+2024/11/11 21:48:53 Node 2 entering critical section
+2024/11/11 21:48:55 Node 1 received a token request
+2024/11/11 21:48:55 Node 1 does not have the token
+2024/11/11 21:48:55 Node 2 leaving critical section
+2024/11/11 21:48:55 Node 2 is passing the token
+2024/11/11 21:48:55 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:48:55 Node 3 received a token release request
+2024/11/11 21:48:55 Node 3 has released the token
+2024/11/11 21:48:55 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:48:59 Node 3 received a token request
+2024/11/11 21:48:59 Node 3 has the token
+2024/11/11 21:48:59 Node 3 entering critical section
+2024/11/11 21:49:00 Node 2 received a token request
+2024/11/11 21:49:00 Node 2 does not have the token
+2024/11/11 21:49:01 Node 3 leaving critical section
+2024/11/11 21:49:01 Node 3 is passing the token
+2024/11/11 21:49:01 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:49:01 Node 1 received a token release request
+2024/11/11 21:49:01 Node 1 has released the token
+2024/11/11 21:49:01 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:49:05 Node 1 received a token request
+2024/11/11 21:49:05 Node 1 has the token
+2024/11/11 21:49:05 Node 1 entering critical section
+2024/11/11 21:49:06 Node 3 received a token request
+2024/11/11 21:49:06 Node 3 does not have the token
+2024/11/11 21:49:07 Node 1 leaving critical section
+2024/11/11 21:49:07 Node 1 is passing the token
+2024/11/11 21:49:07 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:49:07 Node 2 received a token release request
+2024/11/11 21:49:07 Node 2 has released the token
+2024/11/11 21:49:07 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:49:10 Node 2 received a token request
+2024/11/11 21:49:10 Node 2 has the token
+2024/11/11 21:49:10 Node 2 entering critical section
+2024/11/11 21:49:12 Node 1 received a token request
+2024/11/11 21:49:12 Node 1 does not have the token
+2024/11/11 21:49:12 Node 2 leaving critical section
+2024/11/11 21:49:12 Node 2 is passing the token
+2024/11/11 21:49:12 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:49:12 Node 3 received a token release request
+2024/11/11 21:49:12 Node 3 has released the token
+2024/11/11 21:49:12 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:49:16 Node 3 received a token request
+2024/11/11 21:49:16 Node 3 has the token
+2024/11/11 21:49:16 Node 3 entering critical section
+2024/11/11 21:49:17 Node 2 received a token request
+2024/11/11 21:49:17 Node 2 does not have the token
+2024/11/11 21:49:18 Node 3 leaving critical section
+2024/11/11 21:49:18 Node 3 is passing the token
+2024/11/11 21:49:18 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:49:18 Node 1 received a token release request
+2024/11/11 21:49:18 Node 1 has released the token
+2024/11/11 21:49:18 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:49:22 Node 1 received a token request
+2024/11/11 21:49:22 Node 1 has the token
+2024/11/11 21:49:22 Node 1 entering critical section
+2024/11/11 21:49:23 Node 3 received a token request
+2024/11/11 21:49:23 Node 3 does not have the token
+2024/11/11 21:49:24 Node 1 leaving critical section
+2024/11/11 21:49:24 Node 1 is passing the token
+2024/11/11 21:49:24 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:49:24 Node 2 received a token release request
+2024/11/11 21:49:24 Node 2 has released the token
+2024/11/11 21:49:24 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:49:27 Node 2 received a token request
+2024/11/11 21:49:27 Node 2 has the token
+2024/11/11 21:49:27 Node 2 entering critical section
+2024/11/11 21:49:29 Node 1 received a token request
+2024/11/11 21:49:29 Node 1 does not have the token
+2024/11/11 21:49:29 Node 2 leaving critical section
+2024/11/11 21:49:29 Node 2 is passing the token
+2024/11/11 21:49:29 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:49:29 Node 3 received a token release request
+2024/11/11 21:49:29 Node 3 has released the token
+2024/11/11 21:49:29 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:49:33 Node 3 received a token request
+2024/11/11 21:49:33 Node 3 has the token
+2024/11/11 21:49:33 Node 3 entering critical section
+2024/11/11 21:49:34 Node 2 received a token request
+2024/11/11 21:49:34 Node 2 does not have the token
+2024/11/11 21:49:35 Node 3 leaving critical section
+2024/11/11 21:49:35 Node 3 is passing the token
+2024/11/11 21:49:35 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:49:35 Node 1 received a token release request
+2024/11/11 21:49:35 Node 1 has released the token
+2024/11/11 21:49:35 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:49:39 Node 1 received a token request
+2024/11/11 21:49:39 Node 1 has the token
+2024/11/11 21:49:39 Node 1 entering critical section
+2024/11/11 21:49:40 Node 3 received a token request
+2024/11/11 21:49:40 Node 3 does not have the token
+2024/11/11 21:49:41 Node 1 leaving critical section
+2024/11/11 21:49:41 Node 1 is passing the token
+2024/11/11 21:49:41 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:49:41 Node 2 received a token release request
+2024/11/11 21:49:41 Node 2 has released the token
+2024/11/11 21:49:41 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:49:44 Node 2 received a token request
+2024/11/11 21:49:44 Node 2 has the token
+2024/11/11 21:49:44 Node 2 entering critical section
+2024/11/11 21:49:46 Node 1 received a token request
+2024/11/11 21:49:46 Node 1 does not have the token
+2024/11/11 21:49:46 Node 2 leaving critical section
+2024/11/11 21:49:46 Node 2 is passing the token
+2024/11/11 21:49:46 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:49:46 Node 3 received a token release request
+2024/11/11 21:49:46 Node 3 has released the token
+2024/11/11 21:49:46 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:49:50 Node 3 received a token request
+2024/11/11 21:49:50 Node 3 has the token
+2024/11/11 21:49:50 Node 3 entering critical section
+2024/11/11 21:49:51 Node 2 received a token request
+2024/11/11 21:49:51 Node 2 does not have the token
+2024/11/11 21:49:52 Node 3 leaving critical section
+2024/11/11 21:49:52 Node 3 is passing the token
+2024/11/11 21:49:52 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:49:52 Node 1 received a token release request
+2024/11/11 21:49:52 Node 1 has released the token
+2024/11/11 21:49:52 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:49:56 Node 1 received a token request
+2024/11/11 21:49:56 Node 1 has the token
+2024/11/11 21:49:56 Node 1 entering critical section
+2024/11/11 21:49:57 Node 3 received a token request
+2024/11/11 21:49:57 Node 3 does not have the token
+2024/11/11 21:49:58 Node 1 leaving critical section
+2024/11/11 21:49:58 Node 1 is passing the token
+2024/11/11 21:49:58 Node 1 attempting to pass the token to localhost:5002
+2024/11/11 21:49:58 Node 2 received a token release request
+2024/11/11 21:49:58 Node 2 has released the token
+2024/11/11 21:49:58 Node 1 successfully passed the token to localhost:5002
+2024/11/11 21:50:01 Node 2 received a token request
+2024/11/11 21:50:01 Node 2 has the token
+2024/11/11 21:50:01 Node 2 entering critical section
+2024/11/11 21:50:03 Node 1 received a token request
+2024/11/11 21:50:03 Node 1 does not have the token
+2024/11/11 21:50:03 Node 2 leaving critical section
+2024/11/11 21:50:03 Node 2 is passing the token
+2024/11/11 21:50:03 Node 2 attempting to pass the token to localhost:5003
+2024/11/11 21:50:03 Node 3 received a token release request
+2024/11/11 21:50:03 Node 3 has released the token
+2024/11/11 21:50:03 Node 2 successfully passed the token to localhost:5003
+2024/11/11 21:50:07 Node 3 received a token request
+2024/11/11 21:50:07 Node 3 has the token
+2024/11/11 21:50:07 Node 3 entering critical section
+2024/11/11 21:50:08 Node 2 received a token request
+2024/11/11 21:50:08 Node 2 does not have the token
+2024/11/11 21:50:09 Node 3 leaving critical section
+2024/11/11 21:50:09 Node 3 is passing the token
+2024/11/11 21:50:09 Node 3 attempting to pass the token to localhost:5001
+2024/11/11 21:50:09 Node 1 received a token release request
+2024/11/11 21:50:09 Node 1 has released the token
+2024/11/11 21:50:09 Node 3 successfully passed the token to localhost:5001
+2024/11/11 21:50:13 Node 1 received a token request
+2024/11/11 21:50:13 Node 1 has the token
+2024/11/11 21:50:13 Node 1 entering critical section
